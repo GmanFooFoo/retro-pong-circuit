@@ -95,11 +95,23 @@ Für den vollständigen Audit-Trail (Prompts, Parameter, Kosten, Iterationen) si
 
 ### Orbital Arcade Deck
 
-`<noch nicht generiert>`
+> Sci-Fi-Variante. Raumstationsarena mit Blick auf Sterne, Orbit-Linien und einen fernen ringförmigen Planeten. Free Match + Runde 2 im Mini-Turnier.
+
+<p align="center">
+  <img src="../assets/arenas/orbital-arcade-deck-upscaled.png" alt="Orbital Arcade Deck – sci-fi space-station arena with octagonal observation window, ringed planet, orbit arc, and clear vertical center line" width="640">
+</p>
+
+**Status:** Final · 2026-04-28 · User-Pick: Variante 01 (Octagonal Observation-Deck mit Saturn-Ring + Orbit-Bogen + Sternennebel, klare cyan Mittellinie auf dunklem Deck). Alternative Variante 02 (Split-Floor cyan/magenta mit Court-Markings) archiviert in `assets/archive/arenas/` — Split-Floor disqualifiziert wegen 2P-Vibe (analog zu Neon Grid Court V01).
 
 ### Laser Alley
 
-`<noch nicht generiert>`
+> Finalarena. Dunkler, intensiver Korridor zwischen zwei Wänden aus Magenta-Laserstreifen, klarer vertikaler Mittellinie und Cyan-Boden-Reflexionen. Free Match + Finalmatch im Mini-Turnier.
+
+<p align="center">
+  <img src="../assets/arenas/laser-alley-upscaled.png" alt="Laser Alley – dark final arena with symmetric magenta laser walls, dark center field, cyan floor reflections, and strong vanishing point" width="640">
+</p>
+
+**Status:** Final · 2026-04-28 · User-Pick: Variante 02 (Symmetrischer Korridor mit Boden + Laser-Wänden + Decke + Far-Wall, durchgezogene Mittellinie top-to-bottom, Cyan-Boden-Reflexionen als Rim-Light-Counter). Alternative Variante 01 (Triangle-Vanishing-Point mit verjüngter Spielfläche) archiviert in `assets/archive/arenas/` — Triangle-Geometrie disqualifiziert wegen Gameplay-Lesbarkeit (Paddle oben hätte ~0 Bewegungsraum).
 
 ---
 
@@ -122,7 +134,7 @@ Für den vollständigen Audit-Trail (Prompts, Parameter, Kosten, Iterationen) si
 |---|---|---|---|
 | Startscreen / Hero | 1 | 1 ✅ | 100% |
 | Charaktere | 6 | 6 ✅ (Nova Vex, Brakk-9, Lyra Byte, Rexx Volt, Captain Sol, Glitch-Ø) | 100% |
-| Arenen | 3 | 1 ✅ (Neon Grid Court) | 33% |
+| Arenen | 3 | 3 ✅ (Neon Grid Court, Orbital Arcade Deck, Laser Alley) | 100% |
 | Ball-Skins | 5 | 0 | 0% |
 | UI-Elements | mehrere | 0 | 0% |
 | Audio | mehrere | 0 | 0% |
