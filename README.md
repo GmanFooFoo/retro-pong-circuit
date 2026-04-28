@@ -5,10 +5,10 @@
 > **Status:** Concept / Pre-Alpha — Vibe-Coding-Experiment, co-developed with a friend.
 
 <p align="center">
-  <img src="assets/startscreen-upscaled.png" alt="Retro Pong Circuit – Last Arcade of the Galaxy: pixel-art startscreen showing two stylized sci-fi paddles in a neon-grid arena with a glowing ball in motion" width="640">
+  <img src="assets/startscreen-hero.png" alt="Retro Pong Circuit – Last Arcade of the Galaxy: pixel-art startscreen showing two stylized sci-fi paddles in a neon-grid arena with a glowing ball in motion, and the title overlaid in cyan and magenta Press Start 2P typography" width="640">
 </p>
 
-> Startscreen key visual generated with [Retro Diffusion](https://www.retrodiffusion.ai/) (`rd_pro__scifi`, 256×256, nearest-neighbor upscaled to 1024×1024). Title and subtitle will be composed as a typography overlay; the AI image is intentionally text-free.
+> Startscreen key visual generated with [Retro Diffusion](https://www.retrodiffusion.ai/) (`rd_pro__scifi`, 256×256, nearest-neighbor upscaled to 1024×1024). Title and subtitle composited on top with [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P) (OFL).
 
 ---
 

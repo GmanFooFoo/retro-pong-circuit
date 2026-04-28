@@ -36,6 +36,20 @@ Eintragsformat:
 - `rd_pro__scifi` Style passt sehr gut zum PRD-Vibe (dark neon, glowing details, hohe Lesbarkeit).
 - Beide Varianten wären als Hero einsetzbar gewesen — Entscheidung pro Bild 02 wegen Spielerkennbarkeit.
 
+### Run 1.1 · Title-Overlay (post-processing, kein API-Call)
+
+| Feld | Wert |
+|---|---|
+| Asset (final) | `assets/startscreen-hero.png` (1024×1024 mit aufgesetztem Title und Subtitle) |
+| Quelle | `assets/startscreen-upscaled.png` (Run 1, Bild 02 Hero) |
+| Tool | ImageMagick `magick ... -annotate` |
+| Font | [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P), OFL-lizenziert, lokal in `assets/fonts/` |
+| Title | "RETRO PONG CIRCUIT", 26pt, Cyan `#00FFFF` |
+| Subtitle | "LAST ARCADE OF THE GALAXY", 13pt, Magenta `#FF66FF` |
+| Position | Title: 160px unter Bild-Mitte (in der dunklen Bank zwischen Paddle-Unterkante und Boden-Grid). Subtitle: 210px unter Bild-Mitte. |
+| Cost | 0 (lokales Compositing) |
+| Reproduzieren | `./scripts/add-title.sh assets/startscreen-upscaled.png assets/startscreen-hero.png` |
+
 ---
 
 ## Reproduzierbarkeits-Hinweis
