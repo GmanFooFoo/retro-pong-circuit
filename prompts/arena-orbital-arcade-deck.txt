@@ -1,0 +1,16 @@
+Create a pixel-art arena background for a modern retro 80s arcade sci-fi paddle game. Visual only — no text, letters, or numbers in the image; arena title and UI elements will be added separately.
+
+Arena:
+Orbital Arcade Deck — the sci-fi space-station arena of the Retro Pong Circuit, used for round 2 of the mini tournament
+
+Description:
+A pong court inside a space station observation deck, with a wide window or open hangar wall opening onto deep space. Stars, faint orbital trails, and a distant ringed planet sit on the horizon — quiet, vast, atmospheric. The deck floor itself is a clean dark surface with subtle station-panel seams and a clearly visible vertical center line dividing the play field. Calm sci-fi mood, no spectators, no obstacles, no decorative clutter — the play space remains the visual subject.
+
+Visual cues:
+horizontal landscape composition, dark navy deck floor with subtle panel seams, clearly drawn vertical center line from top to bottom, distant cosmic horizon (stars, faint orbit-line arcs, a far-off ringed planet glowing softly), narrow station-frame edges suggesting the deck is enclosed, no paddles or ball drawn (those will be rendered by the game on top), generous empty space in the central play area for paddles and ball
+
+Style:
+modern pixel-art retro style, dark neon palette, 80s arcade sci-fi, high contrast, clean geometric shapes, atmospheric but not distracting, readable gameplay space, cyan and magenta neon accents matching the Retro Pong Circuit visual identity (same palette as the startscreen, Nova Vex roster card, and Neon Grid Court arena), with a slight cool-blue cosmic tint on the horizon
+
+Gameplay requirements:
+background must not overpower ball or paddles, no bright clutter near play area, clear center field, clear vertical center line, suitable for fast arcade gameplay, absolutely no text or letters or numbers or signage, no logos, no copyrighted references, no third-party arcade likenesses, no photorealism, no 3D render

@@ -1,0 +1,16 @@
+Create a pixel-art arena background for a modern retro 80s arcade sci-fi paddle game. Visual only — no text, letters, or numbers in the image; arena title and UI elements will be added separately.
+
+Arena:
+Laser Alley — the dark, intense final arena of the Retro Pong Circuit, used for the championship match of the mini tournament
+
+Description:
+A narrow, dark corridor-like court flanked by walls of intense laser energy. Hot magenta laser beams run along the side walls, casting a tense red-pink glow on the floor. The deck itself stays deep black with a clearly visible vertical center line dividing the play field. Stronger contrast, more dramatic lighting, more pressure than the earlier arenas — this is where the final happens. No spectators, no obstacles inside the play space, no decorative clutter — the laser walls do all the visual work.
+
+Visual cues:
+horizontal landscape composition, almost-black floor with a clearly drawn vertical center line from top to bottom, two parallel walls of magenta-red laser beams along the left and right edges (parallel horizontal beams stacked vertically, glowing intensely), faint cyan rim-light bouncing off the floor edges as a counter-accent, distant dark vanishing point at the back, no paddles or ball drawn (those will be rendered by the game on top), generous empty space in the central play area for paddles and ball
+
+Style:
+modern pixel-art retro style, dark neon palette, 80s arcade sci-fi, high contrast, clean geometric shapes, atmospheric and dramatic, readable gameplay space, dominant magenta and red laser accents with cyan counter-rim — same palette family as the startscreen and the other Retro Pong Circuit arenas, but pushed darker and more intense to signal "final match"
+
+Gameplay requirements:
+background must not overpower ball or paddles, no bright clutter inside the play area, clear center field, clear vertical center line, suitable for fast arcade gameplay, lasers stay along the side walls and never cross the play space, absolutely no text or letters or numbers or signage, no logos, no copyrighted references, no third-party arcade likenesses, no photorealism, no 3D render

@@ -38,7 +38,9 @@ Verwendung:
 
 Raumstationsarena mit Blick auf Sterne, Orbit-Linien oder einen fernen Planetenring.
 
-> *Visual: noch nicht generiert.*
+<p align="center">
+  <img src="../assets/arenas/orbital-arcade-deck-upscaled.png" alt="Orbital Arcade Deck – sci-fi space-station arena with octagonal observation window, ringed planet, orbit arc, and clear vertical center line" width="560">
+</p>
 
 Verwendung:
 
@@ -50,7 +52,9 @@ Verwendung:
 
 Dunklere, intensivere Arena mit Laserlinien, hohem Kontrast und stärkerem Finalgefühl.
 
-> *Visual: noch nicht generiert.*
+<p align="center">
+  <img src="../assets/arenas/laser-alley-upscaled.png" alt="Laser Alley – dark final arena with symmetric magenta laser walls, dark center field, cyan floor reflections, and strong vanishing point" width="560">
+</p>
 
 Verwendung:
 

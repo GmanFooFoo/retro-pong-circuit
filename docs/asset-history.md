@@ -75,6 +75,56 @@ Eintragsformat:
 
 ---
 
+## 2026-04-28 · Run 11 — Arena 3: Laser Alley
+
+| Feld | Wert |
+|---|---|
+| Asset (final) | `assets/arenas/laser-alley.png` (256×256) + `assets/arenas/laser-alley-upscaled.png` (1024×1024) — User-Pick: **Variante 02** (Symmetrischer Korridor: Boden + Wände + Decke + Far-Wall, vertikale Magenta-Laser-Streifen-Wände links und rechts, durchgezogene Mittellinie top-to-bottom, Cyan-Boden-Reflexionen als Rim-Light-Counter, Vanishing-Point in der Tiefe). |
+| Asset (archive) | `assets/archive/arenas/laser-alley-01.png` + `-upscaled.png` (Triangle-Vanishing-Point: zwei konvergierende Magenta-Laser-Wände treffen sich an der Spitze, Spielfeld verjüngt sich nach oben — sehr dramatisch komponiert, aber Gameplay-Lesbarkeitsproblem: oben am Bildrand fast keine Horizontalbreite für Paddles). |
+| Prompt-Quelle | [`prompts/arena-laser-alley.txt`](../prompts/arena-laser-alley.txt) — Befüllung des PRD §23.8 Arena-Background-Templates mit Specs aus PRD §16.5 (dunklere intensivere Finalarena, Laserlinien, hoher Kontrast, stärkstes Finalgefühl im MVP). Text-frei. |
+| API-Modell | `rd_pro` |
+| Style | `rd_pro__scifi` (Konsistenz mit allen vorherigen Assets) |
+| Auflösung | 256×256 |
+| Varianten | 2 |
+| API-Cost | 0.36 Credits (Balance vorher 1.90 → nachher 1.54) |
+| Cost-Check vorher | ✅ ja |
+| Auswahl | **Variante 02** (User-Pick + MASCHIN-Empfehlung übereinstimmend). Begründung: V01 hat einen geometrischen Gameplay-Blocker (verjüngte Spielfläche oben). V02 erfüllt jede PRD §16.5 + §23.8 Anforderung — durchgezogene Mittellinie, leeres zentrales Spielfeld, Laser bleiben strikt an den Seitenwänden, dramatische Korridor-Geometrie ohne Spielfeld-Klarheit zu opfern. Visuell stärkstes der vier neuen Bilder — passt zum "stärksten Arena-Eindruck im MVP". |
+| Iteration-Runde | 1 von max 3 |
+| Reproduzieren | `./scripts/generate-asset.sh prompts/arena-laser-alley.txt assets/arenas/laser-alley.png rd_pro__scifi 256 256 false 2` |
+
+**Notes:**
+- Arena 3 von 3 — MVP-Arena-Coverage vollständig (Neon Grid Court · Orbital Arcade Deck · Laser Alley).
+- V02 traf die Korridor-Architektur-Vorgabe aus dem Prompt direkt: Boden + Decke + zwei Seitenwände + Far-Wall = echtes Arena-Volumen.
+- V01's Triangle-Vanishing-Point ist visuell beeindruckend aber funktional ungeeignet als Spielfeld — gutes Beispiel für "Bild-Schönheit ≠ Gameplay-Lesbarkeit". Klar archiviert, kein Rework.
+- Cyan-Boden-Reflexionen als Rim-Light-Counter waren explizit im Prompt — Modell hat das sauber als horizontale Cyan-Reflexionen am Bodenkante umgesetzt. Verbindet die Magenta-dominierte Finalarena tonal mit den Cyan-dominierten anderen Arenen.
+
+---
+
+## 2026-04-28 · Run 10 — Arena 2: Orbital Arcade Deck
+
+| Feld | Wert |
+|---|---|
+| Asset (final) | `assets/arenas/orbital-arcade-deck.png` (256×256) + `assets/arenas/orbital-arcade-deck-upscaled.png` (1024×1024) — User-Pick: **Variante 01** (Octagonal Observation-Deck mit Saturn-Ring-Planet, Orbit-Bogen, Sternennebel im Cockpit-Fenster, klare cyan Mittellinie auf dunklem Deck). |
+| Asset (archive) | `assets/archive/arenas/orbital-arcade-deck-02.png` + `-upscaled.png` (Breiteres Sky-Vista mit mehreren Planeten + Saturn rechts, dramatischere Cosmic-Komposition — aber Split-Floor cyan-links/magenta-rechts mit Court-Markings = 2P-Vibe, identische Disqualifikation wie Neon Grid Court V01). |
+| Prompt-Quelle | [`prompts/arena-orbital-arcade-deck.txt`](../prompts/arena-orbital-arcade-deck.txt) — Befüllung des PRD §23.8 Arena-Background-Templates mit Specs aus PRD §16.4 (Sci-Fi-Variante, Raumstationsarena mit Blick auf Sterne / Orbit-Linien / fernem Planetenring, ohne visuelle Überladung). Text-frei. |
+| API-Modell | `rd_pro` |
+| Style | `rd_pro__scifi` (Konsistenz mit allen vorherigen Assets) |
+| Auflösung | 256×256 |
+| Varianten | 2 |
+| API-Cost | 0.36 Credits (Balance vorher 2.26 → nachher 1.90) |
+| Cost-Check vorher | ✅ ja |
+| Auswahl | **Variante 01** (User-Pick + MASCHIN-Empfehlung übereinstimmend). Begründung: V02 hat denselben Split-Floor-Lapsus wie Neon Grid Court V01 (cyan-links/magenta-rechts = 2P-Vibe), zusätzlich Court-Boundary-Lines = visuelle Überladung gegen PRD §16.4. V01 erfüllt die Vorgaben sauber: Saturn-Ring-Planet als ikonisches "ferner Planetenring"-Detail, ruhige Cosmic-Atmosphäre, klare cyan Mittellinie, Window-Frame konsistent mit Roster-Card-HUD-Vokabular (Brakk-9 V02, Lyra Byte V01). |
+| Iteration-Runde | 1 von max 3 |
+| Reproduzieren | `./scripts/generate-asset.sh prompts/arena-orbital-arcade-deck.txt assets/arenas/orbital-arcade-deck.png rd_pro__scifi 256 256 false 2` |
+
+**Notes:**
+- Arena 2 von 3. Pattern-Hold: Split-Floor cyan-magenta wird konsequent als 2P-Hint disqualifiziert — Auswahlprinzip von Run 4 (Neon Grid Court) trägt unverändert.
+- V01's heavy octagonal Window-Frame ist initial visuell schwer, aber konsistent mit den Roster-Cards-Frames (HUD-Vokabular). Trägt zur visuellen Kohärenz bei.
+- V01's Mittellinie endet im T-Knick (geht nicht ganz top-to-bottom) — kleiner Schwachpunkt gegenüber Neon Grid Court V02. Akzeptabel weil die T-Komposition den "Deck-Panel"-Look unterstützt; im Spiel wird ohnehin die Game-Engine-Mittellinie darüber gerendert.
+- Saturn-Ring + Orbit-Bogen waren emergente Details — der Prompt sagte "stars, faint orbital trails, distant ringed planet"; das Modell hat alle drei in einer kompakten Komposition kombiniert.
+
+---
+
 ## 2026-04-28 · Run 9 — Character Portrait: Glitch-Ø
 
 | Feld | Wert |
