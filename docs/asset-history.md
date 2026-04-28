@@ -75,6 +75,102 @@ Eintragsformat:
 
 ---
 
+## 2026-04-29 · Run 15 — Ball Skin: Grid Spark
+
+| Feld | Wert |
+|---|---|
+| Asset (final) | `assets/balls/grid-spark.png` (256×256) + `assets/balls/grid-spark-upscaled.png` (1024×1024) — User-Pick: **Variante 01** (8-Punkt-Pixel-Burst auf clean dark backdrop, lime-grüne Außenpunkte, weiß-cyan Innenkern, scharfe pixelige Kanten, kompakte Silhouette). |
+| Asset (archive) | `assets/archive/balls/grid-spark-02.png` + `-upscaled.png` (12-Punkt-Burst auf vollständiger Cosmic-Background-Szene mit mehreren Planeten — visuell kraftvoll, aber Hintergrund-Verstoß: Prompt forderte explizit "just the spark on a clean dark backdrop"). |
+| Prompt-Quelle | [`prompts/ball-grid-spark.txt`](../prompts/ball-grid-spark.txt) — Befüllung des PRD §23.7 Ball-Skin-Templates mit Grid-Spark-Specs aus PRD §3.3.2 (eckiger Pixel-Funken, NICHT rund). Lime-green + white-cyan Palette als Differenzierung gegen Cyan/Magenta/Orange-Familie der anderen drei Skins. |
+| API-Modell | `rd_pro` |
+| Style | `rd_pro__scifi` (Konsistenz mit gesamter Asset-Familie) |
+| Auflösung | 256×256 |
+| Varianten | 2 |
+| API-Cost | 0.36 Credits (Balance vorher 0.46 → nachher 0.10) |
+| Cost-Check vorher | ✅ ja (Pattern-Hold seit Run 1) |
+| Auswahl | **Variante 01** (User-Pick + MASCHIN-Empfehlung übereinstimmend). V02 violated den expliziten "clean dark backdrop"-Constraint mit voller Cosmic-Scene → ein Hintergrund würde im Spielfeld erscheinen, unbrauchbar als Ball-Skin. V01 erfüllt die Vorgabe sauber: angular silhouette wie gefordert (einzige nicht-runde Ball-Variante im MVP), pixelige Kanten ohne Anti-Alias-Soft-Edges, klar isolierter Spark auf Dark-Navy. |
+| Iteration-Runde | 1 von max 3 |
+| Reproduzieren | `./scripts/generate-asset.sh prompts/ball-grid-spark.txt assets/balls/grid-spark.png rd_pro__scifi 256 256 false 2` |
+
+**Notes:**
+- Ball 4 von 5 (Pixel Comet defer). Grid Spark als bewusster Bruch der "alle Bälle sind rund"-Konvention — angular star-burst-Silhouette ist die visuelle Differenzierung im Skin-Roster.
+- V02 ist optisch das spektakulärste Bild der gesamten Ball-Generation, aber als Ball-Skin technisch unbrauchbar (Background-Constraint). Klarer Reject-Lerning: visuelle Power ≠ Funktional-Tauglichkeit (gleiches Pattern wie Laser Alley V01 Triangle in Run 11).
+- Lime-green + white-cyan als Palette: differenziert klar gegen Cyan-Neon-Core, Magenta-Laser-Puck und Orange-Plasma-Orb. Vier Skins, vier Farb-Familien, vier Silhouetten — maximale Erkennbarkeit im Options-Menu-Picker.
+
+---
+
+## 2026-04-29 · Run 14 — Ball Skin: Plasma Orb
+
+| Feld | Wert |
+|---|---|
+| Asset (final) | `assets/balls/plasma-orb.png` (256×256) + `assets/balls/plasma-orb-upscaled.png` (1024×1024) — User-Pick: **Variante 02** (Sauberer radialer Gradient mit roten/orange Bändern von außen nach innen, 3 klare Cyan-Lightning-Arcs, dominanter weiß-heißer Mittelpunkt). |
+| Asset (archive) | `assets/archive/balls/plasma-orb-01.png` + `-upscaled.png` (Sehr dramatische Flammen-Swirl-Komposition mit vielen Cyan-Bögen, intensiv und detailreich — visuell spektakulärer, aber visuell überladen, würde bei Spielgröße als Noise lesen und Kollisionspunkt verschleiern). |
+| Prompt-Quelle | [`prompts/ball-plasma-orb.txt`](../prompts/ball-plasma-orb.txt) — Befüllung des PRD §23.7 Ball-Skin-Templates mit Plasma-Orb-Specs aus PRD §3.3.2 (runde Sci-Fi-Energiekugel). Orange-yellow + red-orange Palette mit Cyan-Counter-Arcs als Differenzierung gegen Cyan-Neon-Core. |
+| API-Modell | `rd_pro` |
+| Style | `rd_pro__scifi` |
+| Auflösung | 256×256 |
+| Varianten | 2 |
+| API-Cost | 0.36 Credits (Balance vorher 0.82 → nachher 0.46) |
+| Cost-Check vorher | ✅ ja |
+| Auswahl | **Variante 02** (User-Pick + MASCHIN-Empfehlung übereinstimmend). V01 hat sehr starke visuelle Wirkung (Flammen-Swirl mit Cyan-Lightning), aber violated PRD §6.3 "Trail darf Richtung und Kollisionspunkt nicht verschleiern" + PRD §6.6 Negativ-Kriterium #9 "visuell zu überladen" — bei Game-Size würde der innere Bildaufbau als Noise lesen und den weiß-heißen Center weniger dominant machen. V02 hat sauberen radialen Aufbau mit klar dominantem Center-Spot. |
+| Iteration-Runde | 1 von max 3 |
+| Reproduzieren | `./scripts/generate-asset.sh prompts/ball-plasma-orb.txt assets/balls/plasma-orb.png rd_pro__scifi 256 256 false 2` |
+
+**Notes:**
+- Ball 3 von 5 (Pixel Comet defer). Plasma Orb tonalisch zur Voltara-Prime-Energie-Familie (Rexx Volt) ohne Character-Lock — sollte als Skin-Option für jeden Spieler verfügbar sein.
+- V01 als Beispiel für "Schönheit ≠ Tauglichkeit" — Lerning aus Run 11 (Laser Alley V01) wiederholt sich hier auf Skin-Ebene.
+- Cyan-Lightning-Arcs als Counter-Color zum Orange-Gradient erzeugen die "instabile Plasma"-Lesbarkeit ohne Center-Dominanz zu opfern.
+
+---
+
+## 2026-04-29 · Run 13 — Ball Skin: Laser Puck
+
+| Feld | Wert |
+|---|---|
+| Asset (final) | `assets/balls/laser-puck.png` (256×256) + `assets/balls/laser-puck-upscaled.png` (1024×1024) — User-Pick: **Variante 02** (Top-down 2D-Linsenform, symmetrisches Magenta-Pink-Oval mit Magenta-Rim und weiß-heißem Zentrum, kein 3D-Schatten). |
+| Asset (archive) | `assets/archive/balls/laser-puck-01.png` + `-upscaled.png` (Isometrische 3D-Perspektive: Puck mit sichtbarer Seitenwand, Schatten unten, perspektivische Tiefe — visuell sehr stark, aber als 3D-Rendering wahrgenommen). |
+| Prompt-Quelle | [`prompts/ball-laser-puck.txt`](../prompts/ball-laser-puck.txt) — Befüllung des PRD §23.7 Ball-Skin-Templates mit Laser-Puck-Specs aus PRD §3.3.2 (flacher, schneller Laser-Look). Magenta-pink Palette als Differenzierung gegen Cyan-Neon-Core. |
+| API-Modell | `rd_pro` |
+| Style | `rd_pro__scifi` |
+| Auflösung | 256×256 |
+| Varianten | 2 |
+| API-Cost | 0.36 Credits (Balance vorher 1.18 → nachher 0.82) |
+| Cost-Check vorher | ✅ ja |
+| Auswahl | **Variante 02** (User-Pick + MASCHIN-Empfehlung übereinstimmend). V01 violated PRD §6.6 Negativ-Kriterium #2 "es wie 3D-Rendering aussieht" → automatischer Reject. Plus: schräge isometrische Perspektive konfligiert mit Top-Down-Pong-Kameraflucht — der Ball sähe im Spiel aus wie aus einem anderen Spielraum. V02 ist die korrekte 2D-Top-Down-Lesart. |
+| Iteration-Runde | 1 von max 3 |
+| Reproduzieren | `./scripts/generate-asset.sh prompts/ball-laser-puck.txt assets/balls/laser-puck.png rd_pro__scifi 256 256 false 2` |
+
+**Notes:**
+- Ball 2 von 5 (Pixel Comet defer). Laser Puck als "flat fast" Skin tonalisch zur Laser-Alley-Finalarena-Familie — gleiche Magenta-Counter-Cyan-Palette.
+- Klare Anwendung des "no 3D render"-Kriteriums: V01 ist isometrisch konstruiert (sichtbare Seitenwand, Schatten unten = perspektivische Tiefe), das ist genau die Schwelle die PRD §6.6 zu vermeiden fordert.
+- "Slightly elongated lens-shape" aus dem Prompt funktionierte: V02 ist erkennbar oval (breiter als hoch) ohne in die Streak/Beam-Falle zu fallen.
+
+---
+
+## 2026-04-29 · Run 12 — Ball Skin: Neon Core
+
+| Feld | Wert |
+|---|---|
+| Asset (final) | `assets/balls/neon-core.png` (256×256) + `assets/balls/neon-core-upscaled.png` (1024×1024) — User-Pick: **Variante 01** (Smooth cyan halo, kompakter weiß-heißer Kern, klare runde Silhouette mit sauberem Halo-Gradient ohne Noise). |
+| Asset (archive) | `assets/archive/balls/neon-core-02.png` + `-upscaled.png` (Größerer Ball mit gedithertem rauem Rand und körnigem Halo-Noise-Ring, harsh white core mit pixelig-melted edges — bei kleiner Renderung würde Dithering messy aussehen und Kollisionspunkt unschärfer machen). |
+| Prompt-Quelle | [`prompts/ball-neon-core.txt`](../prompts/ball-neon-core.txt) — Befüllung des PRD §23.7 Ball-Skin-Templates mit Neon-Core-Specs aus PRD §3.3.2 (klassischer leuchtender Arcade-Ball, Default). Cyan + light-blue Palette als visueller Anchor des gesamten Skin-Rosters. |
+| API-Modell | `rd_pro` |
+| Style | `rd_pro__scifi` |
+| Auflösung | 256×256 |
+| Varianten | 2 |
+| API-Cost | 0.36 Credits (Balance vorher 1.54 → nachher 1.18) |
+| Cost-Check vorher | ✅ ja |
+| Auswahl | **Variante 01** (User-Pick + MASCHIN-Empfehlung übereinstimmend). V01 hat den klareren Halo-Gradient und kompakteren Center-Spot. V02's Dithering wirkt dekorativ-rauh, aber bei Spielfläche-Renderung würde der Dither-Noise an der Kante die Ball-Silhouette unschärfer machen — direkt gegen PRD §6.3 "Ball höchste visuelle Priorität". |
+| Iteration-Runde | 1 von max 3 |
+| Reproduzieren | `./scripts/generate-asset.sh prompts/ball-neon-core.txt assets/balls/neon-core.png rd_pro__scifi 256 256 false 2` |
+
+**Notes:**
+- Ball 1 von 5 (Pixel Comet defer). Neon Core ist der Default-Pong-Ball dieses Universums — Cyan-Halo + weiß-heißer Kern als visuelle Konstante des MVP.
+- Cyan-Familie tonalisch verbunden mit Hero/Startscreen, Neon Grid Court, Orbital Arcade Deck — der Default-Ball in der Default-Arena als visuell konsistentes Standard-Erlebnis.
+- Erstes Asset der Ball-Klasse: Pattern-Hold der `rd_pro__scifi`-Pipeline auch für isolated-on-dark Single-Object-Subjects bestätigt (vorher überwiegend Charakter-Cards und Arena-Backgrounds).
+
+---
+
 ## 2026-04-28 · Run 11 — Arena 3: Laser Alley
 
 | Feld | Wert |

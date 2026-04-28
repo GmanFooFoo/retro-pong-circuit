@@ -1,0 +1,16 @@
+Create a pixel-art ball skin for a retro 80s arcade sci-fi paddle game.
+
+Ball skin:
+Neon Core — the classic, default arcade ball of the Retro Pong Circuit
+
+Description:
+A perfectly round glowing energy ball at the center of the frame. Bright cyan core with a small intense white-hot center spot, surrounded by a soft cyan halo that fades smoothly into the dark background. Reads instantly as the canonical Pong ball of this universe — the baseline against which the other ball skins are variations. Calm, iconic, no trail, no motion lines.
+
+Visual cues:
+single round ball, centered composition, dark background, cyan-dominant palette, bright white-hot center, soft cyan halo glow fading outward, no trail, no motion blur, no other elements in the frame
+
+Style:
+modern pixel-art retro style, 80s neon sci-fi, clear circular shape, very high contrast, arcade game ball, readable against dark backgrounds, limited but vibrant cyan-blue palette, same visual language as the Retro Pong Circuit startscreen and arenas
+
+Requirements:
+readable during fast gameplay, perfectly circular silhouette (not oval, not angular), no text, no logo, no copyrighted references, no excessive details, no photorealism, no 3D render, no character or paddle in frame, no arena or background scene — just the ball on a clean dark backdrop

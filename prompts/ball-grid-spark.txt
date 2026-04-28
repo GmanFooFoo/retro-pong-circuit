@@ -1,0 +1,16 @@
+Create a pixel-art ball skin for a retro 80s arcade sci-fi paddle game.
+
+Ball skin:
+Grid Spark — an angular electric pixel-burst
+
+Description:
+An angular non-round spark at the center of the frame, shaped like a sharp 4-point or 8-point pixelated electric burst. Lime-green and white-cyan palette. The shape is clearly NOT a circle — it has visible pixel-jagged points radiating outward in cardinal or diagonal directions. The center is a bright white-hot core, the outer points are vibrant lime-green or electric cyan, suggesting raw electric discharge frozen in pixel form. Reads as static-electricity-as-arcade-ball.
+
+Visual cues:
+single angular star-burst or cross-shaped spark (4 or 8 points), centered composition, dark background, lime-green and white-cyan dominant palette, bright white-hot center, sharp pixelated edges (no anti-aliased curves), distinct angular silhouette unlike a normal ball, no trail, no motion blur, no other elements
+
+Style:
+modern pixel-art retro style, 80s neon sci-fi, ANGULAR not circular silhouette, very high contrast, arcade game ball, readable against dark backgrounds, limited but vibrant lime-green and white-cyan palette, distinct from the cyan / magenta / orange ball-skin family
+
+Requirements:
+readable during fast gameplay, must NOT be circular — must clearly read as an angular spark or pixel-burst with visible points, but the silhouette must still fit roughly inside a square bounding box small enough to feel ball-sized (no long streaks, no extended beams), no text, no logo, no copyrighted references, no excessive details, no photorealism, no 3D render, no character or paddle in frame, no arena or background scene — just the spark on a clean dark backdrop
