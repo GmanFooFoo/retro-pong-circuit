@@ -56,7 +56,8 @@ Eintragsformat:
 
 | Feld | Wert |
 |---|---|
-| Asset (PR-Stand) | Beide Varianten provisorisch in `assets/characters/`: `nova-vex-01.png` + `nova-vex-02.png` (jeweils + `-upscaled.png` 1024×1024). User pickt im PR. |
+| Asset (final) | `assets/characters/nova-vex.png` (256×256) + `assets/characters/nova-vex-upscaled.png` (1024×1024) — User-Pick: **Variante 01** (Tournament Roster Card, Visor-HUD-Reflexion, kreisrundes Brust-Emblem). |
+| Asset (archive) | `assets/archive/characters/nova-vex-02.png` + `-upscaled.png` (Cleaner Charakter-Poster mit Cityscape-im-Visor — schöner narrativer Detail, aber für die erste Roster-Card-Iteration ist die direkt-fertige Card-Variante praktischer). |
 | Prompt-Quelle | [`prompts/character-nova-vex.txt`](../prompts/character-nova-vex.txt) — Befüllung des PRD §23.5 Templates mit Nova-Vex-Specs aus PRD §14.2 (Speedster, Visor-Helm, Neon-Jacke, Jet-Boots, Cyan-Magenta-Akzente). Wieder text-frei. |
 | API-Modell | `rd_pro` |
 | Style | `rd_pro__scifi` (Konsistenz mit Hero) |
@@ -64,7 +65,7 @@ Eintragsformat:
 | Varianten | 2 |
 | API-Cost | 0.36 Credits (Balance vorher 5.14 → nachher 4.78) |
 | Cost-Check vorher | ✅ ja |
-| Auswahl | **offen** — User entscheidet im PR. MASCHIN-Empfehlung Bild 02 (Cityscape-im-Visor erzählt Neon-Sector-Lore, Flügel-Emblem stärkt Speedster-Identität). |
+| Auswahl | **Variante 01** (User-Pick 2026-04-28). MASCHIN hatte 02 empfohlen wegen Cityscape-Lore-Detail; User wählte 01 wegen direkt einsatzbereiter Roster-Card-Komposition. Beide Argumente valide — die UI-Glyphs der 01-Card werden im späteren Card-Frame-Redesign ohnehin durch eigenes UI ersetzt. |
 | Iteration-Runde | 1 von max 3 |
 | Reproduzieren | `./scripts/generate-asset.sh prompts/character-nova-vex.txt assets/characters/nova-vex.png rd_pro__scifi 256 256 false 2` |
 
