@@ -86,6 +86,8 @@ Nova Vex was once a test pilot for experimental light drives. In the Retro Pong 
   <img src="../assets/characters/nova-vex-upscaled.png" alt="Nova Vex – Speedster from Neon Sector 7: pixel-art tournament roster card" width="360">
 </p>
 
+**Voice sample:** [`nova-vex.wav`](../assets/audio/voices/nova-vex.wav)
+
 | Stat | Balken-Niveau |
 |---|---|
 | Speed | sehr hoch |
@@ -110,6 +112,8 @@ Brakk-9 was built to seal space dock gates against meteor strikes. In the Circui
 <p align="center">
   <img src="../assets/characters/brakk-9-upscaled.png" alt="Brakk-9 – Defender from the Outer Ring of the Titan Shipyards: pixel-art tournament roster card with hazard-stripe armor and single cyan eye" width="360">
 </p>
+
+**Voice sample:** [`brakk-9.wav`](../assets/audio/voices/brakk-9.wav)
 
 | Stat | Balken-Niveau |
 |---|---|
@@ -136,6 +140,8 @@ Lyra Byte reads ball trajectories like old machine code. Her matches look less l
   <img src="../assets/characters/lyra-byte-upscaled.png" alt="Lyra Byte – Technician from Data Moon L-404: pixel-art tournament roster card with scan-line HUD visor, circuit-coat, and wrist trajectory terminal" width="360">
 </p>
 
+**Voice sample:** [`lyra-byte.wav`](../assets/audio/voices/lyra-byte.wav)
+
 | Stat | Balken-Niveau |
 |---|---|
 | Speed | mittel |
@@ -160,6 +166,8 @@ Rexx Volt does not play to score. He plays to make impacts. His fans call him th
 <p align="center">
   <img src="../assets/characters/rexx-volt-upscaled.png" alt="Rexx Volt – Striker from Plasma Colony Voltara Prime: pixel-art tournament roster card with alien broad-shoulder frame, electric plasma-vortex belt, and wild lightning hair" width="360">
 </p>
+
+**Voice sample:** [`rexx-volt.wav`](../assets/audio/voices/rexx-volt.wav)
 
 | Stat | Balken-Niveau |
 |---|---|
@@ -186,6 +194,8 @@ Captain Sol is the last representative of the old Arcade Fleet. No tricks. No pl
   <img src="../assets/characters/captain-sol-upscaled.png" alt="Captain Sol – Balanced Pilot of the Sol Federation Training Fleet: pixel-art tournament roster card with goldfish-bowl helmet, gold ring, and silver hair" width="360">
 </p>
 
+**Voice sample:** [`captain-sol.wav`](../assets/audio/voices/captain-sol.wav)
+
 | Stat | Balken-Niveau |
 |---|---|
 | Speed | mittel |
@@ -210,6 +220,8 @@ Nobody invited Glitch-Ø. The unit simply appeared in the tournament bracket, co
 <p align="center">
   <img src="../assets/characters/glitch-zero-upscaled.png" alt="Glitch-Ø – Chaos Unit from the Unknown Memory Sector: pixel-art tournament roster card with android face, mechanical seams, normal left eye, and cyan pixel-disintegration right eye" width="360">
 </p>
+
+**Voice sample:** [`glitch-zero.wav`](../assets/audio/voices/glitch-zero.wav)
 
 | Stat | Balken-Niveau |
 |---|---|
@@ -258,4 +270,4 @@ Sie enthält:
 
 ---
 
-← [Zurück zum README](../README.md) · Vorher: [03-gameplay.md](03-gameplay.md) · Weiter: [05-arenas.md](05-arenas.md) · Visuals: [Asset Gallery](asset-gallery.md)
+← [Zurück zum README](../README.md) · Vorher: [03-gameplay.md](03-gameplay.md) · Weiter: [05-arenas.md](05-arenas.md) · Visuals: [Asset Gallery](asset-gallery.md) · Voices: [Asset Voices](asset-voices.md)
