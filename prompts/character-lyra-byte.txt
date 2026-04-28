@@ -1,0 +1,19 @@
+Create a pixel-art character portrait card for an 80s arcade sci-fi tournament roster. Visual only — no text, letters, or numbers in the image; the character name will be added separately as a typography overlay.
+
+Character:
+Lyra Byte, signal engineer and angle specialist from Data Moon L-404
+
+Role:
+Technician — precision tactician, retro sci-fi tournament fighter
+
+Personality:
+Reads ball trajectories like old machine code. Her matches look less like sport and more like debugging under neon light. She wins by making opponents stand in exactly the wrong place. Calm, methodical, precise.
+
+Visual cues:
+slim female engineer with oversized data-goggles or visor with scan-line HUD readout, long cable-coat or trench coat with embedded circuit traces glowing faintly, small wrist-mounted terminal or forearm display showing trajectory data, compact posture suggesting calculation not aggression, head and shoulders or upper-body framing
+
+Style:
+modern pixel-art retro style, dark neon arcade UI background, sci-fi tournament roster card, strong silhouette, clean readable pixel art, cyan and magenta neon accents matching the Retro Pong Circuit visual identity, with the addition of green or lime data-readout accents for the technician's circuit and terminal elements
+
+Requirements:
+arcade character select screen vibe, 80s neon interface, compact centered composition, absolutely no text or letters or numbers or signage visible in the image, no external logos, no brand references, no third-party character likenesses, no photorealism, no 3D render

@@ -75,6 +75,31 @@ Eintragsformat:
 
 ---
 
+## 2026-04-28 · Run 6 — Character Portrait: Lyra Byte
+
+| Feld | Wert |
+|---|---|
+| Asset (final) | `assets/characters/lyra-byte.png` (256×256) + `assets/characters/lyra-byte-upscaled.png` (1024×1024) — User-Pick: **Variante 01** (Hooded figure, Scan-Line-Visor mit Cyan/Magenta Trajectory-Arrows, Circuit-Trace-Mantel, Wrist-Terminal mit Vektor-Diagramm). |
+| Asset (archive) | `assets/archive/characters/lyra-byte-02.png` + `-upscaled.png` (Matrix-Grid-Visor, grüne Code-Terminal-Screens im Hintergrund, dunklere Palette — trifft PRD-Fiction "debugging under neon light" atmosphärisch stark, aber zu dunkel für Roster-Card-Energie-Konsistenz). |
+| Prompt-Quelle | [`prompts/character-lyra-byte.txt`](../prompts/character-lyra-byte.txt) — Befüllung des PRD §23.5 Templates mit Lyra-Byte-Specs aus PRD §14.4 (Technician, Data Moon L-404, Datenbrille, Kabelmantel, Mini-Terminal). Text-frei. |
+| API-Modell | `rd_pro` |
+| Style | `rd_pro__scifi` (Konsistenz mit Hero, Nova Vex, Brakk-9, Arena 1) |
+| Auflösung | 256×256 |
+| Varianten | 2 |
+| API-Cost | 0.36 Credits (Balance vorher 4.06 → nachher 3.70) |
+| Cost-Check vorher | ✅ ja |
+| Auswahl | **Variante 01** (User-Pick + MASCHIN-Empfehlung übereinstimmend). Begründung: Trajectory-Arrows im Scan-Line-Visor sind ikonisch für die Winkel-Spezialistin, Wrist-Terminal-Vektor-Diagramm passt direkt zu PRD §14.4 "reads ball trajectories", vibrante Energie konsistent mit Nova Vex und Brakk-9 Roster-Cards. |
+| Iteration-Runde | 1 von max 3 |
+| Reproduzieren | `./scripts/generate-asset.sh prompts/character-lyra-byte.txt assets/characters/lyra-byte.png rd_pro__scifi 256 256 false 2` |
+
+**Notes:**
+- Charakter 3 von 6 für MVP-Roster. Technician als bewusster Kontrast: weder Pilot noch Roboter — eine Signalingenieurin die das Spielfeld liest wie Code.
+- Beide Varianten lieferten Daten-Goggles + Wrist-Terminal + Circuit-Coat aus dem Prompt sauber. Die Trajectory-Arrows im Visor waren ein emergenter Detail (Variante 01) — nicht explizit im Prompt gefordert, aber direkt PRD-aligned ("reads ball trajectories like machine code").
+- Variante 02's Code-Terminal-Screens im Hintergrund sind atmosphärisch stark und hätten gut als Charakter-Intro-Screen oder Profilseite funktioniert — ähnliches Archiv-Potenzial wie Brakk-9 Variante 01.
+- Dreimal in Folge: Empfehlung und User-Pick übereinstimmend. Roster-Card-Energie-Konsistenz als Auswahlprinzip hält.
+
+---
+
 ## 2026-04-28 · Run 5 — Character Portrait: Brakk-9
 
 | Feld | Wert |

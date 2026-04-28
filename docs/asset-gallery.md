@@ -39,9 +39,15 @@ Für den vollständigen Audit-Trail (Prompts, Parameter, Kosten, Iterationen) si
 
 **Status:** Final · 2026-04-28 · User-Pick: Variante 02 (Roster-Card mit HUD-Stat-Icons oben rechts und Grid-Pattern-Hintergrund). Alternative Variante 01 (full-body Defender-Poster mit octagonal Frame) archiviert in `assets/archive/characters/`.
 
-### Lyra Byte
+### Lyra Byte — Technician (Data Moon L-404)
 
-`<noch nicht generiert>`
+> Reads ball trajectories like old machine code. Her matches look less like sport and more like debugging under neon light. She wins by making opponents stand in exactly the wrong place.
+
+<p align="center">
+  <img src="../assets/characters/lyra-byte-upscaled.png" alt="Lyra Byte – Technician from Data Moon L-404: pixel-art tournament roster card with scan-line HUD visor, circuit-coat, and wrist trajectory terminal" width="480">
+</p>
+
+**Status:** Final · 2026-04-28 · User-Pick: Variante 01 (Hooded figure, Scan-Line-Visor mit Trajectory-Arrows, Wrist-Terminal mit Vektor-Diagramm). Alternative Variante 02 (Matrix-Visor, Code-Terminal-Hintergrund) archiviert in `assets/archive/characters/`.
 
 ### Rexx Volt
 
@@ -97,7 +103,7 @@ Für den vollständigen Audit-Trail (Prompts, Parameter, Kosten, Iterationen) si
 | Asset-Kategorie | Soll (MVP) | Ist | Coverage |
 |---|---|---|---|
 | Startscreen / Hero | 1 | 1 ✅ | 100% |
-| Charaktere | 6 | 2 ✅ (Nova Vex, Brakk-9) | 33% |
+| Charaktere | 6 | 3 ✅ (Nova Vex, Brakk-9, Lyra Byte) | 50% |
 | Arenen | 3 | 1 ✅ (Neon Grid Court) | 33% |
 | Ball-Skins | 5 | 0 | 0% |
 | UI-Elements | mehrere | 0 | 0% |
