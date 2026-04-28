@@ -3,20 +3,25 @@
 # generate-asset.sh — Generate a pixel-art asset via the Retro Diffusion API.
 #
 # Usage:
-#   scripts/generate-asset.sh <prompt-file> <out-png> [style] [width] [height] [check_cost]
+#   scripts/generate-asset.sh <prompt-file> <out-png> [style] [width] [height] [check_cost] [num_images]
 #
 # Examples:
-#   # Estimate cost only (no credits spent):
-#   scripts/generate-asset.sh prompts/startscreen.txt assets/startscreen.png rd_pro__scifi 256 256 true
+#   # Estimate cost only (no credits spent), 2 variants:
+#   scripts/generate-asset.sh prompts/startscreen-no-text.txt assets/startscreen.png rd_pro__scifi 256 256 true 2
 #
-#   # Generate the actual image:
-#   scripts/generate-asset.sh prompts/startscreen.txt assets/startscreen.png rd_pro__scifi 256 256 false
+#   # Generate 2 actual variants:
+#   scripts/generate-asset.sh prompts/startscreen-no-text.txt assets/startscreen.png rd_pro__scifi 256 256 false 2
 #
 # Defaults:
 #   style       = rd_pro__scifi
 #   width       = 256
 #   height      = 256
 #   check_cost  = false
+#   num_images  = 1
+#
+# Output naming:
+#   - If num_images = 1: writes <out-png> directly, plus <out-png-stem>-upscaled.png
+#   - If num_images > 1: writes <out-png-stem>-01.png, -02.png, ... plus matching -NN-upscaled.png
 #
 # Requirements:
 #   - bash, curl, jq (install: brew install jq)
@@ -57,9 +62,10 @@ STYLE="${3:-rd_pro__scifi}"
 WIDTH="${4:-256}"
 HEIGHT="${5:-256}"
 CHECK_COST="${6:-false}"
+NUM_IMAGES="${7:-1}"
 
 if [ -z "${PROMPT_FILE}" ] || [ -z "${OUT_FILE}" ]; then
-  echo "Usage: $0 <prompt-file> <out-png> [style] [width] [height] [check_cost]" >&2
+  echo "Usage: $0 <prompt-file> <out-png> [style] [width] [height] [check_cost] [num_images]" >&2
   exit 1
 fi
 
@@ -77,18 +83,19 @@ BODY=$(jq -n \
   --argjson width      "${WIDTH}" \
   --argjson height     "${HEIGHT}" \
   --argjson check_cost "${CHECK_COST}" \
+  --argjson num_images "${NUM_IMAGES}" \
   '{
     prompt:       $prompt,
     prompt_style: $style,
     width:        $width,
     height:       $height,
-    num_images:   1,
+    num_images:   $num_images,
     check_cost:   $check_cost
   }')
 
 # --- Call API ---
 echo "→ POST https://api.retrodiffusion.ai/v1/inferences"
-echo "  style=${STYLE}  size=${WIDTH}x${HEIGHT}  check_cost=${CHECK_COST}"
+echo "  style=${STYLE}  size=${WIDTH}x${HEIGHT}  num_images=${NUM_IMAGES}  check_cost=${CHECK_COST}"
 
 RESPONSE=$(curl -sS -X POST https://api.retrodiffusion.ai/v1/inferences \
   -H "X-RD-Token: ${RETRO_DIFFUSION_API_KEY}" \
@@ -113,35 +120,54 @@ if [ "${CHECK_COST}" = "true" ]; then
   exit 0
 fi
 
-# --- Decode base64 image ---
+# --- Decode base64 images ---
 IMG_COUNT=$(echo "${RESPONSE}" | jq '.base64_images | length')
 if [ "${IMG_COUNT}" = "0" ]; then
   echo "ERROR: response contains no base64_images." >&2
   echo "${RESPONSE}" | jq . >&2
   exit 1
 fi
+echo "  generated=${IMG_COUNT} image(s)"
 
-mkdir -p "$(dirname "${OUT_FILE}")"
-echo "${RESPONSE}" | jq -r '.base64_images[0]' | base64 --decode > "${OUT_FILE}"
-echo "✓ Saved: ${OUT_FILE} ($(file -b "${OUT_FILE}"))"
+OUT_DIR="$(dirname "${OUT_FILE}")"
+OUT_BASE="$(basename "${OUT_FILE}" .png)"
+OUT_EXT="png"
+mkdir -p "${OUT_DIR}"
 
-# --- Optional: nearest-neighbor upscale to 1024x1024 ---
-UP_FILE="${OUT_FILE%.*}-upscaled.${OUT_FILE##*.}"
-
-if command -v magick > /dev/null 2>&1; then
-  magick "${OUT_FILE}" -filter point -resize 1024x1024 "${UP_FILE}"
-  echo "✓ Upscaled (ImageMagick): ${UP_FILE}"
-elif command -v convert > /dev/null 2>&1; then
-  convert "${OUT_FILE}" -filter point -resize 1024x1024 "${UP_FILE}"
-  echo "✓ Upscaled (ImageMagick legacy): ${UP_FILE}"
-elif python3 -c "from PIL import Image" > /dev/null 2>&1; then
-  python3 - <<PYEOF
+# Helper: upscale a single PNG nearest-neighbor to 1024x1024
+upscale_pixel() {
+  local IN="$1" OUT="$2"
+  if command -v magick > /dev/null 2>&1; then
+    magick "${IN}" -filter point -resize 1024x1024 "${OUT}"
+    echo "  ✓ Upscaled (ImageMagick): ${OUT}"
+  elif command -v convert > /dev/null 2>&1; then
+    convert "${IN}" -filter point -resize 1024x1024 "${OUT}"
+    echo "  ✓ Upscaled (ImageMagick legacy): ${OUT}"
+  elif python3 -c "from PIL import Image" > /dev/null 2>&1; then
+    python3 - <<PYEOF
 from PIL import Image
-img = Image.open("${OUT_FILE}")
-img.resize((1024, 1024), Image.NEAREST).save("${UP_FILE}")
+img = Image.open("${IN}")
+img.resize((1024, 1024), Image.NEAREST).save("${OUT}")
 PYEOF
-  echo "✓ Upscaled (Pillow): ${UP_FILE}"
-else
-  echo "⚠ No upscaler available. Skip upscale (raw ${OUT_FILE} is fine for direct use)." >&2
-  echo "  Install one: brew install imagemagick   OR   pip3 install Pillow" >&2
-fi
+    echo "  ✓ Upscaled (Pillow): ${OUT}"
+  else
+    echo "  ⚠ No upscaler available — raw ${IN} only." >&2
+    echo "    Install one: brew install imagemagick   OR   pip3 install Pillow" >&2
+  fi
+}
+
+# Loop over generated images and save + upscale each
+for i in $(seq 0 $((IMG_COUNT - 1))); do
+  if [ "${IMG_COUNT}" -eq 1 ]; then
+    OUT_PATH="${OUT_FILE}"
+    UP_PATH="${OUT_DIR}/${OUT_BASE}-upscaled.${OUT_EXT}"
+  else
+    SUFFIX="$(printf "%02d" $((i + 1)))"
+    OUT_PATH="${OUT_DIR}/${OUT_BASE}-${SUFFIX}.${OUT_EXT}"
+    UP_PATH="${OUT_DIR}/${OUT_BASE}-${SUFFIX}-upscaled.${OUT_EXT}"
+  fi
+
+  echo "${RESPONSE}" | jq -r ".base64_images[${i}]" | base64 --decode > "${OUT_PATH}"
+  echo "✓ Saved: ${OUT_PATH} ($(file -b "${OUT_PATH}"))"
+  upscale_pixel "${OUT_PATH}" "${UP_PATH}"
+done
