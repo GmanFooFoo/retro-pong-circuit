@@ -23,26 +23,11 @@ Für den vollständigen Audit-Trail (Prompts, Parameter, Kosten, Iterationen) si
 
 > Former test pilot for experimental light drives. Wins through speed, timing, and last-second saves, never through force.
 
-**Beide Varianten zur Auswahl** — eine wird Hero, die andere wandert nach `assets/archive/`.
+<p align="center">
+  <img src="../assets/characters/nova-vex-upscaled.png" alt="Nova Vex – Speedster from Neon Sector 7: pixel-art tournament roster card" width="480">
+</p>
 
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <strong>Variante 01</strong><br>
-      <em>Tournament Roster Card mit eingebautem UI-Frame</em><br><br>
-      <img src="../assets/characters/nova-vex-01-upscaled.png" alt="Nova Vex variant 01" width="380">
-    </td>
-    <td align="center" width="50%">
-      <strong>Variante 02</strong><br>
-      <em>Cleaner Charakter-Poster mit Cityscape-im-Visor</em><br><br>
-      <img src="../assets/characters/nova-vex-02-upscaled.png" alt="Nova Vex variant 02" width="380">
-    </td>
-  </tr>
-</table>
-
-**MASCHIN-Empfehlung: Variante 02** — Cityscape-im-Visor erzählt die Neon-Sector-Lore, Flügel-Emblem stärkt Speedster-Identität, cleane Komposition lässt uns später ein konsistentes Card-Frame für alle 6 Charaktere bauen.
-
-**Status:** Wahl offen · Stil-Konsistenz mit Hero (gleicher RD_PRO scifi style)
+**Status:** Final · 2026-04-28 · User-Pick: Variante 01 (Tournament Roster Card mit Visor-HUD-Reflexion und kreisrundem Brust-Emblem). Alternative Variante 02 archiviert in `assets/archive/characters/`.
 
 ### Brakk-9 — Defender
 
@@ -100,7 +85,7 @@ Für den vollständigen Audit-Trail (Prompts, Parameter, Kosten, Iterationen) si
 | Asset-Kategorie | Soll (MVP) | Ist | Coverage |
 |---|---|---|---|
 | Startscreen / Hero | 1 | 1 ✅ | 100% |
-| Charaktere | 6 | 0–1 (Auswahl ausstehend) | 0–17% |
+| Charaktere | 6 | 1 ✅ (Nova Vex) | 17% |
 | Arenen | 3 | 0 | 0% |
 | Ball-Skins | 5 | 0 | 0% |
 | UI-Elements | mehrere | 0 | 0% |
