@@ -2,11 +2,11 @@
 
 > **Was bauen wir genau — und was bewusst NICHT?**
 >
-> Diese Datei bündelt aus der Original-PRD die Sektionen **§4 Zielbild MVP**, **§10 MVP-Scope (enthalten / nicht enthalten)**, **§25 Non-Goals**, **§28 Erfolgskriterien** und **§29 Akzeptanzkriterien**. Pflichtlektüre #2: harter Scope-Cut für die erste spielbare Version.
+> Enthält: Zielbild MVP, MVP-Scope, Non-Goals, Erfolgskriterien und Akzeptanzkriterien. *(Original-PRD: §4, §10, §25, §28, §29)*
 
 ---
 
-## 4. Zielbild des MVP
+## 2.1 Zielbild des MVP
 
 Der MVP soll ein vollständiges, kleines Spielerlebnis liefern:
 
@@ -19,12 +19,12 @@ Der MVP soll ein vollständiges, kleines Spielerlebnis liefern:
 7. Charaktere mit leichten passiven Unterschieden.
 8. Englische Ingame-Texte.
 9. 80er-Hybrid-Musik aus Chiptune und Synthwave.
-10. Klare Legalund Brand-Guardrails.
+10. Klare Legal- und Brand-Guardrails.
 11. Retro-Diffusion-Asset-Kriterien für konsistente Pixel-Art.
 
-## 10. MVP-Scope
+## 2.2 MVP-Scope
 
-## 10.1 Enthalten im MVP
+### Enthalten im MVP
 
 | Bereich | MVP-Umfang |
 |---|---|
@@ -44,7 +44,7 @@ Der MVP soll ein vollständiges, kleines Spielerlebnis liefern:
 | Asset-Kontrolle | Kriterienentwickler-Rolle |
 | Branding | eigenständig, keine offizielle Pong-/Atari-Nähe |
 
-## 10.2 Nicht enthalten im MVP
+### Nicht enthalten im MVP
 
 | Thema | Status |
 |---|---|
@@ -67,7 +67,7 @@ Der MVP soll ein vollständiges, kleines Spielerlebnis liefern:
 | mehrere Charakterwelten | V2 |
 | mehrere Tonalitäten / Skin-Packs | V2 |
 
-## **25. Non-Goals für den MVP**
+## 2.3 Non-Goals für den MVP
 
 Der MVP soll ausdrücklich nicht versuchen, ein zu großes Spiel zu werden.
 
@@ -87,7 +87,7 @@ Nicht-Ziele:
 12. Keine Plattform-Optimierung für Konsolen oder Mobile.
 13. Kein Versuch, ein historisches Originalspiel exakt nachzubauen.
 
-## **28. Erfolgskriterien des MVP**
+## 2.4 Erfolgskriterien des MVP
 
 Der MVP gilt als erfolgreich, wenn:
 
@@ -106,9 +106,9 @@ Der MVP gilt als erfolgreich, wenn:
 13. Retro-Diffusion-Assets konsistent und spielbar wirken,
 14. das Spiel innerhalb weniger Minuten Spaß macht.
 
-## **29. Akzeptanzkriterien**
+## 2.5 Akzeptanzkriterien
 
-## **29.1 Free Match**
+### Free Match
 
 Ein Free Match ist akzeptiert, wenn:
 
@@ -122,7 +122,7 @@ Ein Free Match ist akzeptiert, wenn:
 8. Punkte korrekt gezählt werden,
 9. ein Gewinner angezeigt wird.
 
-## **29.2 Mini Tournament**
+### Mini Tournament
 
 Der Mini-Turniermodus ist akzeptiert, wenn:
 
@@ -135,7 +135,7 @@ Der Mini-Turniermodus ist akzeptiert, wenn:
 7. das Finale bis 7 Punkte läuft,
 8. nach Turniersieg ein Winner-Screen erscheint.
 
-## **29.3 Charaktere**
+### Charaktere
 
 Das Charaktermodell ist akzeptiert, wenn:
 
@@ -145,7 +145,7 @@ Das Charaktermodell ist akzeptiert, wenn:
 4. jeder Charakter ein leicht unterschiedliches Spielgefühl hat,
 5. kein Charakter offensichtlich unfair stark ist.
 
-## **29.4 Arenen**
+### Arenen
 
 Die Arenen sind akzeptiert, wenn:
 
@@ -155,7 +155,7 @@ Die Arenen sind akzeptiert, wenn:
 4. keine Arena Ball oder Paddle verdeckt,
 5. jede Arena zur dunklen Neon-Sci-Fi-Richtung passt.
 
-## **29.5 Audio**
+### Audio
 
 Audio ist akzeptiert, wenn:
 
@@ -165,7 +165,7 @@ Audio ist akzeptiert, wenn:
 4. Musik loopbar ist,
 5. Audio nicht von geschützten Originalquellen übernommen wurde.
 
-## **29.6 Assets**
+### Assets
 
 Assets sind akzeptiert, wenn:
 

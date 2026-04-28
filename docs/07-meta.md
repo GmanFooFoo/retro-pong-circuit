@@ -2,17 +2,17 @@
 
 > **Spielsprache und rechtliche / Brand-Guardrails.**
 >
-> Diese Datei bündelt aus der Original-PRD die Sektionen **§9 Spielsprache (PRD-Sprache, Ingame-Sprache)** und **§24 Legal / Brand Guardrails**. Reference-Dokument vor allem vor späterem Public-Launch.
+> Enthält: Spielsprache (PRD-Sprache, Ingame-Sprache) und Legal / Brand Guardrails. *(Original-PRD: §9, §24)*
 
 ---
 
-## 9. Spielsprache
+## 7.1 Spielsprache
 
-## 9.1 PRD-Sprache
+### PRD-Sprache
 
 Das PRD ist auf Deutsch.
 
-## 9.2 Ingame-Sprache
+### Ingame-Sprache
 
 Alle Ingame-Texte sind auf Englisch.
 
@@ -26,16 +26,15 @@ Dazu gehören:
 6. Credits.
 7. UI-Labels.
 
-## **24. Legal / Brand Guardrails**
+## 7.2 Legal und Brand Guardrails
 
-## **24.1 Grundsatz**
+### Grundsatz
 
 `Retro Pong Circuit: Last Arcade of the Galaxy` ist ein eigenständiges Arcade-Paddle-Spiel, inspiriert von klassischen Arcade-Paddle-Spielen.
 
 Es ist kein offizielles Remake, keine Adaption, kein Clone, kein Tribute und keine lizenzierte Version eines bestehenden Spiels.
-v
 
-## **24.2 Must Not**
+### Must Not
 
 Das Projekt darf nicht:
 
@@ -45,7 +44,7 @@ Das Projekt darf nicht:
 4. den Look-and-Feel eines geschützten Legacy-Produkts so eng nachbauen, dass Verwechslungsgefahr entsteht,
 5. Drittanbieter-Assets verwenden, deren Lizenz die geplante Nutzung nicht ausdrücklich erlaubt.
 
-## **24.3 Should**
+### Should
 
 Das Projekt soll:
 
@@ -56,7 +55,7 @@ Das Projekt soll:
 5. eigene Fiction und Namensgebung verwenden,
 6. nur generisch auf klassische Arcade-Paddle-Spiele als Inspiration verweisen.
 
-## **24.4 Credits-Formulierung**
+### Credits-Formulierung
 
 Zulässige Formulierung:
 
@@ -73,4 +72,4 @@ Nicht verwenden:
 
 ---
 
-← [Zurück zum README](../README.md) · Vorher: [05-art-and-audio.md](05-art-and-audio.md) · Weiter: [07-roadmap.md](07-roadmap.md)
+← [Zurück zum README](../README.md) · Vorher: [06-art-and-audio.md](06-art-and-audio.md) · Weiter: [08-roadmap.md](08-roadmap.md)

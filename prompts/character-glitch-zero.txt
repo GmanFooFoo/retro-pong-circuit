@@ -1,0 +1,19 @@
+Create a pixel-art character portrait card for an 80s arcade sci-fi tournament roster. Visual only — no text, letters, or numbers in the image; the character name will be added separately as a typography overlay.
+
+Character:
+Glitch-Ø, the uninvited tournament intruder from the Unknown Memory Sector
+
+Role:
+Chaos Unit — corrupted hologram entity, accidental retro sci-fi tournament fighter
+
+Personality:
+Nobody invited Glitch-Ø. The unit simply appeared in the tournament bracket, complete with its own statistics, corrupted victory music, and a paddle that occasionally looks like it is having a bad day. Somehow, it still wins more often than it should.
+
+Visual cues:
+broken hologram humanoid figure with visible pixel corruption — missing or flickering pixels at the edges creating a disintegrating silhouette effect, one asymmetric glitching eye (one side normal, one side corrupted or oversized), body or face showing digital artifact scanlines or pixel tears, ghost-like transparency in patches, eerie yet oddly calm presence — it should not look aggressive but simply wrong in a way that is unsettling
+
+Style:
+modern pixel-art retro style, dark neon arcade UI background, sci-fi tournament roster card, strong silhouette despite the corruption effects, clean readable pixel art, cyan and magenta neon accents from the Retro Pong Circuit visual identity, with the addition of glitch-green or static-white pixel noise as corruption accents — the most visually unusual character in the roster
+
+Requirements:
+arcade character select screen vibe, 80s neon interface, compact centered composition, absolutely no text or letters or numbers or signage visible in the image, no external logos, no brand references, no third-party character likenesses, no photorealism, no 3D render

@@ -49,9 +49,15 @@ Für den vollständigen Audit-Trail (Prompts, Parameter, Kosten, Iterationen) si
 
 **Status:** Final · 2026-04-28 · User-Pick: Variante 01 (Hooded figure, Scan-Line-Visor mit Trajectory-Arrows, Wrist-Terminal mit Vektor-Diagramm). Alternative Variante 02 (Matrix-Visor, Code-Terminal-Hintergrund) archiviert in `assets/archive/characters/`.
 
-### Rexx Volt
+### Rexx Volt — Striker (Plasma Colony Voltara Prime)
 
-`<noch nicht generiert>`
+> Does not play to score. He plays to make impacts. His fans call him the Plasma Hammer. His opponents usually say nothing, because they are busy chasing the ball.
+
+<p align="center">
+  <img src="../assets/characters/rexx-volt-upscaled.png" alt="Rexx Volt – Striker from Plasma Colony Voltara Prime: pixel-art tournament roster card with alien broad-shoulder frame, electric plasma-vortex belt, and wild lightning hair" width="480">
+</p>
+
+**Status:** Final · 2026-04-28 · User-Pick: Variante 01 (Green alien skin, Plasma-Vortex-Gürtel, wild electric hair, gold frame mit Voltara-Accents). Alternative Variante 02 archiviert in `assets/archive/characters/`.
 
 ### Captain Sol — Balanced Pilot (Sol Federation Training Fleet)
 
@@ -63,9 +69,15 @@ Für den vollständigen Audit-Trail (Prompts, Parameter, Kosten, Iterationen) si
 
 **Status:** Final · 2026-04-28 · User-Pick: Variante 02 (Goldfish-Bowl-Helm mit goldenem Randring, silbergraues Haar, ruhiges Halblächeln, HUD-Panels). Alternative Variante 01 (versiegelter Bubble-Helm, ernst) archiviert in `assets/archive/characters/`.
 
-### Glitch-Ø
+### Glitch-Ø — Chaos Unit (Unknown Memory Sector)
 
-`<noch nicht generiert>`
+> Nobody invited Glitch-Ø. The unit simply appeared in the tournament bracket, complete with its own statistics, corrupted victory music, and a paddle that occasionally looks like it is having a bad day. Somehow, it still wins more often than it should.
+
+<p align="center">
+  <img src="../assets/characters/glitch-zero-upscaled.png" alt="Glitch-Ø – Chaos Unit from the Unknown Memory Sector: pixel-art tournament roster card with android face, mechanical seams, normal left eye, and cyan pixel-disintegration right eye" width="480">
+</p>
+
+**Status:** Final · 2026-04-28 · User-Pick: Variante 02 (Android-Gesicht mit mechanischen Nähten, normales linkes Auge, Cyan-Pixel-Disintegration rechtes Auge, fragmentierte Kanten). Alternative Variante 01 (Ghost-Hologram, plasma-explosion eye) archiviert in `assets/archive/characters/`.
 
 ---
 
@@ -109,7 +121,7 @@ Für den vollständigen Audit-Trail (Prompts, Parameter, Kosten, Iterationen) si
 | Asset-Kategorie | Soll (MVP) | Ist | Coverage |
 |---|---|---|---|
 | Startscreen / Hero | 1 | 1 ✅ | 100% |
-| Charaktere | 6 | 4 ✅ (Nova Vex, Brakk-9, Lyra Byte, Captain Sol) | 67% |
+| Charaktere | 6 | 6 ✅ (Nova Vex, Brakk-9, Lyra Byte, Rexx Volt, Captain Sol, Glitch-Ø) | 100% |
 | Arenen | 3 | 1 ✅ (Neon Grid Court) | 33% |
 | Ball-Skins | 5 | 0 | 0% |
 | UI-Elements | mehrere | 0 | 0% |
@@ -117,7 +129,7 @@ Für den vollständigen Audit-Trail (Prompts, Parameter, Kosten, Iterationen) si
 | **Branding** | | | |
 | Social Preview | 1 | 1 ✅ | 100% |
 
-Vollständige Asset-Liste pro PRD §21 ([05-art-and-audio.md](05-art-and-audio.md)).
+Vollständige Asset-Liste pro PRD §21 ([06-art-and-audio.md](06-art-and-audio.md)).
 
 ---
 

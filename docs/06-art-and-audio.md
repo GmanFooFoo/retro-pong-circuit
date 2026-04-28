@@ -2,21 +2,21 @@
 
 > **Branding, Visual Direction, Audio-Konzept und die komplette Retro-Diffusion-Asset-Pipeline.**
 >
-> Diese Datei bündelt aus der Original-PRD die Sektionen **§7 Branding (Titel, Untertitel, Wirkung)**, **§19 Audio-Konzept**, **§20 Visual Direction**, **§21 MVP-Asset-Scope**, **§22 Rolle Kriterienentwickler** und **§23 Retro Diffusion Prompts & Asset Criteria**. Komplette Asset-Pipeline mit Prompt-Templates für alle Asset-Typen.
+> Enthält: Branding (Titel, Untertitel, Wirkung), Audio-Konzept, Visual Direction, MVP-Asset-Scope, Rolle Kriterienentwickler und Retro Diffusion Prompts & Asset Criteria. *(Original-PRD: §7, §19, §20, §21, §22, §23)*
 
 ---
 
-## 7. Titel und Branding
+## 6.1 Branding
 
-## 7.1 Haupttitel
+### Haupttitel
 
 `Retro Pong Circuit`
 
-## 7.2 Untertitel
+### Untertitel
 
 `Last Arcade of the Galaxy`
 
-## 7.3 Wirkung
+### Wirkung
 
 Der Titel soll folgende Assoziationen auslösen:
 
@@ -26,7 +26,7 @@ Der Titel soll folgende Assoziationen auslösen:
 4. Turnierstruktur.
 5. Leicht epischer, aber nicht zu ernster Ton.
 
-## 7.4 Verwendungsorte
+### Verwendungsorte
 
 Der Titel wird verwendet auf:
 
@@ -37,9 +37,9 @@ Der Titel wird verwendet auf:
 5. Retro-Diffusion-Prompts.
 6. Projektordnern und Dokumentation.
 
-## 19. Audio-Konzept
+## 6.2 Audio-Konzept
 
-## 19.1 Musikstil
+### Musikstil
 
 Die Musik ist ein Hybrid aus:
 
@@ -48,7 +48,7 @@ Die Musik ist ein Hybrid aus:
 3. Synthwave-Drums,
 4. 80er-Arcade-Energie.
 
-## 19.2 Eigenschaften
+### Eigenschaften
 
 | Element | Entscheidung |
 |---|---|
@@ -60,7 +60,7 @@ Die Musik ist ein Hybrid aus:
 | Loop-Länge | ca. 30–60 Sekunden |
 | Ziel | Match fühlt sich wie ein Neon-Arcade-Duell an |
 
-## 19.3 Musik im MVP
+### Musik im MVP
 
 | Audio-Element | Status |
 |---|---|
@@ -70,7 +70,7 @@ Die Musik ist ein Hybrid aus:
 | Arena-spezifische Musik | V2 |
 | dynamische Musik | V2/V3 |
 
-## 19.4 Soundeffekte
+### Soundeffekte
 
 | Effekt | Beschreibung |
 |---|---|
@@ -82,7 +82,7 @@ Die Musik ist ein Hybrid aus:
 | Menu Move | leiser UI-Bleep |
 | Menu Confirm | kräftiger Confirm-Sound |
 
-## 19.5 Audio-Regeln
+### Audio-Regeln
 
 1. Musik darf nicht nervig sein.
 2. Loops müssen kurz und sauber wiederholbar sein.
@@ -90,15 +90,15 @@ Die Musik ist ein Hybrid aus:
 4. Keine Nutzung fremder Originalsounds.
 5. Alle Audioquellen müssen lizenztechnisch sauber sein.
 
-## 20. Visual Direction
+## 6.3 Visual Direction
 
-## 20.1 Stil
+### Stil
 
 Der visuelle Stil ist:
 
 `Modern pixel-art retro style with 80s arcade sci-fi aesthetics.`
 
-## 20.2 Keine strenge Hardware-Limitierung
+### Keine strenge Hardware-Limitierung
 
 Das Spiel muss nicht exakt wie NES, C64 oder Game Boy aussehen.
 
@@ -112,7 +112,7 @@ Stattdessen gilt:
 6. Kräftige Neon-Akzente.
 7. Kein unnötiger historischer Purismus.
 
-## 20.3 Farbund Kontrastprinzip
+### Farb- und Kontrastprinzip
 
 | Element | Entscheidung |
 |---|---|
@@ -124,7 +124,7 @@ Stattdessen gilt:
 | Paddles | deutlich vom Hintergrund abgesetzt |
 | UI | helle Pixel-Schrift, klare Arcade-Balken |
 
-## 20.4 Lesbarkeitsregeln
+### Lesbarkeitsregeln
 
 1. Ball hat höchste visuelle Priorität.
 2. Paddles haben zweithöchste Priorität.
@@ -133,9 +133,9 @@ Stattdessen gilt:
 5. Hintergründe bleiben atmosphärisch, aber zurückhaltend.
 6. Effekte bleiben kontrolliert.
 
-## 21. MVP-Asset-Scope
+## 6.4 MVP-Asset-Scope
 
-## 21.1 Asset-Liste
+### Asset-Liste
 
 | Asset-Typ | Anzahl | Zweck |
 |---|---:|---|
@@ -149,19 +149,19 @@ Stattdessen gilt:
 | Winner-Screen / Tournament-Win-Visual | 1 | Abschlussbild nach Turniersieg |
 | Icons / kleine Menümarker | kleines Set | Cursor, Auswahlmarker, Optionssymbole |
 
-## 21.2 Asset-Prinzip
+### Asset-Prinzip
 
 Alle Assets müssen zur gleichen visuellen Richtung passen:
 
 `Modern pixel-art retro style, dark neon look, 80s arcade sci-fi, strong readability, no protected legacy arcade branding.`
 
-## 22. Rolle: Kriterienentwickler
+## 6.5 Kriterienentwickler
 
-## 22.1 Zweck der Rolle
+### Zweck der Rolle
 
 Der Kriterienentwickler sorgt dafür, dass Retro-Diffusion-Assets nicht zufällig entstehen, sondern anhand klarer Kriterien entwickelt, geprüft und iteriert werden.
 
-## 22.2 Aufgaben
+### Aufgaben
 
 Der Kriterienentwickler:
 
@@ -174,7 +174,7 @@ Der Kriterienentwickler:
 7. verhindert zu starke Nähe zu fremden Marken, Originalgrafiken oder bekannten Legacy-Spielen,
 8. dokumentiert, welche Asset-Version final verwendet wird.
 
-## 22.3 Asset-Abnahme-Status
+### Asset-Abnahme-Status
 
 | Status | Bedeutung |
 |---|---|
@@ -182,7 +182,7 @@ Der Kriterienentwickler:
 | needs iteration | Asset ist grundsätzlich gut, braucht aber Nacharbeit |
 | reject | Asset passt nicht zum Projekt oder verletzt Kriterien |
 
-## 22.4 Workflow
+### Workflow
 
 ```text
 Concept idea
@@ -195,9 +195,9 @@ Concept idea
 → Game integration
 ```
 
-## **23. Retro Diffusion Prompt & Asset Criteria**
+## 6.6 Retro Diffusion Prompt & Asset Criteria
 
-## **23.1 Visual Style Baseline**
+### Visual Style Baseline
 
 Alle Asset-Prompts sollen sich an folgender Basis orientieren:
 
@@ -205,7 +205,7 @@ Alle Asset-Prompts sollen sich an folgender Basis orientieren:
 modern pixel-art retro style, 80s arcade sci-fi, dark neon palette, strong silhouettes, clean readable shapes, high contrast, arcade game asset, no photorealism, no 3D render, no brand logos, no copyrighted characters, no text unless explicitly requested
 ```
 
-## **23.2 Global Asset Criteria**
+### Global Asset Criteria
 
 Ein Asset ist brauchbar, wenn:
 
@@ -218,7 +218,7 @@ Ein Asset ist brauchbar, wenn:
 7. es klare Silhouetten hat,
 8. es zum restlichen Asset-Set passt.
 
-## **23.3 Negative Criteria**
+### Negative Criteria
 
 Ein Asset wird abgelehnt, wenn:
 
@@ -233,7 +233,7 @@ Ein Asset wird abgelehnt, wenn:
 9. es visuell zu überladen ist,
 10. es das Gameplay erschweren würde.
 
-## **23.4 Prompt Template: Character Sprite**
+### Prompt Template: Character Sprite
 
 ```text
 Create a small pixel-art game character sprite for a modern retro 80s arcade sci-fi game.
@@ -252,7 +252,7 @@ Requirements:
 full body sprite, readable at small size, front or slight three-quarter view, transparent or simple dark background, no text, no logo, no copyrighted character, no photorealism, no 3D render
 ```
 
-## **23.5 Prompt Template: Character Portrait / Roster Card**
+### Prompt Template: Character Portrait / Roster Card
 
 ```text
 Create a pixel-art character portrait card for an 80s arcade sci-fi tournament roster.
@@ -273,7 +273,7 @@ Card feel:
 arcade character select screen, 80s neon interface, compact composition, no external logos, no brand references, no unreadable text
 ```
 
-## **23.6 Prompt Template: Paddle Design**
+### Prompt Template: Paddle Design
 
 ```text
 Create a pixel-art paddle design for a retro sci-fi arcade paddle game.
@@ -292,7 +292,24 @@ Requirements:
 must be readable during fast gameplay, no text, no logo, no copyrighted references, no excessive details, no photorealism, no 3D render
 ```
 
-## **23.7 Prompt Template: Ball Skin**
+### Prompt Template: Ball Skin
+
+```text
+Create a pixel-art ball skin for a retro 80s arcade sci-fi paddle game.
+
+Ball skin:
+[BALL SKIN NAME]
+Description:
+[LOOK AND FEEL]
+
+Style:
+modern pixel-art retro style, 80s neon sci-fi, clear circular or near-circular shape, high contrast, arcade game ball, readable against dark backgrounds
+
+Requirements:
+readable during fast gameplay, no text, no logo, no copyrighted references, no excessive details, no photorealism, no 3D render
+```
+
+### Prompt Template: Arena Background
 
 ```text
 Create a pixel-art arena background for a modern retro 80s arcade sci-fi paddle game.
@@ -309,24 +326,7 @@ Gameplay requirements:
 background must not overpower ball or paddles, no bright clutter near play area, clear center field, suitable for fast arcade gameplay, no logos, no copyrighted references, no text unless explicitly requested
 ```
 
-## **23.8 Prompt Template: Arena Background**
-
-```text
-Create a pixel-art arena background for a modern retro 80s arcade sci-fi paddle game.
-
-Arena:
-[ARENA NAME]
-Description:
-[ARENA DESCRIPTION]
-
-Style:
-modern pixel-art retro style, dark neon palette, 80s arcade sci-fi, high contrast, clean geometric shapes, atmospheric but not distracting, readable gameplay space
-
-Gameplay requirements:
-background must not overpower ball or paddles, no bright clutter near play area, clear center field, suitable for fast arcade gameplay, no logos, no copyrighted references, no text unless explicitly requested
-```
-
-## **23.9 Prompt Template: UI Elements**
+### Prompt Template: UI Elements
 
 ```text
 Create a pixel-art UI element set for a modern retro 80s arcade sci-fi game.
@@ -341,7 +341,7 @@ Requirements:
 usable in game UI, no brand logos, no excessive decoration, no unreadable text, no photorealism, no 3D render
 ```
 
-## **23.10 Prompt Template: Startscreen Key Visual**
+### Prompt Template: Startscreen Key Visual
 
 ```text
 Create a pixel-art key visual for the title screen of an 80s retro sci-fi arcade paddle game.
@@ -361,7 +361,7 @@ Requirements:
 title-safe composition, readable central area, no third-party logos, no copyrighted references, no photorealism, no 3D render
 ```
 
-## **23.11 Prompt Template: Winner Screen**
+### Prompt Template: Winner Screen
 
 ```text
 Create a pixel-art winner screen for an 80s retro sci-fi arcade tournament.
@@ -379,22 +379,20 @@ Requirements:
 no third-party logos, no copyrighted references, no photorealism, no 3D render, minimal or no text unless explicitly requested
 ```
 
-## **23.12 Asset Review Checklist**
+### Asset Review Checklist
 
-Für jedes generierte Asset wird geprüft:
-
-|**Kriterium**|**Frage**|
+| Kriterium | Frage |
 |---|---|
-|Stiltreue|Passt es zu modernem Pixel-Art-Retro-Stil?|
-|80er-Sci-Fi|Wirkt es wie dunkle Neon-Arcade-Sci-Fi?|
-|Lesbarkeit|Ist es bei Spielgröße erkennbar?|
-|Konsistenz|Passt es zum restlichen Asset-Set?|
-|Gameplay-Tauglichkeit|Stört es Ball, Paddle oder UI nicht?|
-|Originalität|Vermeidet es bekannte Marken, Logos und Fremdfiguren?|
-|Qualität|Ist es sauber, klar und nicht matschig?|
-|Nutzbarkeit|Kann es direkt oder mit wenig Nacharbeit verwendet werden?|
+| Stiltreue | Passt es zu modernem Pixel-Art-Retro-Stil? |
+| 80er-Sci-Fi | Wirkt es wie dunkle Neon-Arcade-Sci-Fi? |
+| Lesbarkeit | Ist es bei Spielgröße erkennbar? |
+| Konsistenz | Passt es zum restlichen Asset-Set? |
+| Gameplay-Tauglichkeit | Stört es Ball, Paddle oder UI nicht? |
+| Originalität | Vermeidet es bekannte Marken, Logos und Fremdfiguren? |
+| Qualität | Ist es sauber, klar und nicht matschig? |
+| Nutzbarkeit | Kann es direkt oder mit wenig Nacharbeit verwendet werden? |
 
 
 ---
 
-← [Zurück zum README](../README.md) · Vorher: [04-characters-and-arenas.md](04-characters-and-arenas.md) · Weiter: [06-meta.md](06-meta.md)
+← [Zurück zum README](../README.md) · Vorher: [05-arenas.md](05-arenas.md) · Weiter: [07-meta.md](07-meta.md)

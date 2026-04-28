@@ -2,11 +2,11 @@
 
 > **Was ist Retro Pong Circuit, für wen, und nach welchen Prinzipien wird es entwickelt?**
 >
-> Diese Datei bündelt aus der Original-PRD die Sektionen **§1 Zweck**, **§2 Kurzbeschreibung**, **§3 Produktvision**, **§5 Zielgruppe**, **§6 Kernprinzipien** und **§8 Mini-Story**. Pflichtlektüre #1 für den Einstieg ins Projekt.
+> Enthält: Zweck, Kurzbeschreibung, Produktvision, Zielgruppe, Kernprinzipien und Mini-Story. *(Original-PRD: §1, §2, §3, §5, §6, §8)*
 
 ---
 
-## 1. Zweck des Dokuments
+## 1.1 Zweck
 
 Dieses Product Requirements Document beschreibt den fachlichen MVP-Scope für `Retro Pong Circuit: Last Arcade of the Galaxy`.
 
@@ -19,7 +19,7 @@ Das Dokument dient als Grundlage für:
 
 Technische Architekturentscheidungen sind nicht Bestandteil dieses Dokuments.
 
-## 2. Kurzbeschreibung
+## 1.2 Kurzbeschreibung
 
 `Retro Pong Circuit: Last Arcade of the Galaxy` ist ein eigenständiges 80er-Retro-Sci-Fi-Arcade-Spiel auf Basis einer klassischen Paddle-Ball-Spielmechanik.
 
@@ -27,13 +27,13 @@ Der Spieler tritt mit einem von sechs Retro-Sci-Fi-Champions gegen CPU-Gegner an
 
 Der MVP ist bewusst schlank gehalten. Er soll schnell spielbar, gut verständlich und visuell eigenständig sein.
 
-## 3. Produktvision
+## 1.3 Produktvision
 
 `Retro Pong Circuit` soll sich anfühlen wie ein verschollenes Arcade-Spiel aus einer alternativen 80er-Sci-Fi-Zeitlinie: einfach, direkt, schnell verständlich, aber mit genug Charakter, um nicht wie eine reine Kopie klassischer Paddle-Spiele zu wirken.
 
 Die Vision ist nicht, ein komplexes modernes Spiel zu bauen. Die Vision ist ein kleines, charmantes, spielbares Retro-Experiment mit eigener Identität.
 
-## 5. Zielgruppe
+## 1.4 Zielgruppe
 
 Der MVP richtet sich primär an:
 
@@ -41,35 +41,35 @@ Der MVP richtet sich primär an:
 2. Personen, die kurze, unkomplizierte Sessions bevorzugen.
 3. Freunde und Bekannte im privaten Spielkontext.
 4. Entwickler oder Kreative, die den Workflow aus Claude Code, Vibe Coding und KI-generierten Pixel-Art-Assets ausprobieren möchten.
-5. Retround 80er-Sci-Fi-Fans.
+5. Retro- und 80er-Sci-Fi-Fans.
 
-Das Spiel wird zunächst nicht als kommerzielles Produkt geplant. Trotzdem wird es so konzipiert, dass eine spätere Veröffentlichung nicht durch unsaubere Brandingoder Asset-Entscheidungen erschwert wird.
+Das Spiel wird zunächst nicht als kommerzielles Produkt geplant. Trotzdem wird es so konzipiert, dass eine spätere Veröffentlichung nicht durch unsaubere Branding- oder Asset-Entscheidungen erschwert wird.
 
-## 6. Kernprinzipien
+## 1.5 Kernprinzipien
 
-## 6.1 Einfachheit vor Feature-Fülle
+### Einfachheit vor Feature-Fülle
 
 Das Spiel bleibt nah an der klassischen Paddle-Ball-Mechanik. Der MVP soll nicht durch zu viele Systeme überladen werden.
 
-## 6.2 Lesbarkeit vor visueller Überladung
+### Lesbarkeit vor visueller Überladung
 
 Ball, Paddles, Score und Spielfeldgrenzen müssen jederzeit klar erkennbar sein. Neon-Effekte und Hintergründe dürfen Atmosphäre schaffen, aber das Spiel nicht verdecken.
 
-## 6.3 Eigenständigkeit vor Nostalgie-Kopie
+### Eigenständigkeit vor Nostalgie-Kopie
 
 Das Spiel darf von klassischen Arcade-Paddle-Spielen inspiriert sein, darf aber keine fremden Namen, Logos, Screens, Sounds oder Markenidentitäten kopieren.
 
-## 6.4 Charakter vor Komplexität
+### Charakter vor Komplexität
 
 Die sechs Charaktere sollen Persönlichkeit haben, aber keine komplexen aktiven Fähigkeiten im MVP. Unterschiede entstehen über passive Werte und Spielgefühl.
 
-## 6.5 Schnelle Sessions
+### Schnelle Sessions
 
 Matches sollen kurz, direkt und wiederholbar sein. Der Spieler soll schnell starten und ohne lange Erklärung spielen können.
 
-## 8. Mini-Story
+## 1.6 Mini-Story
 
-## 8.1 Grundidee
+### Grundidee
 
 Im Jahr 2088 findet tief im Neon-Sektor das letzte echte Arcade-Turnier der Galaxis statt: der `Retro Pong Circuit`.
 
@@ -77,7 +77,7 @@ Sechs Champions treten in drei Arenen gegeneinander an.
 
 Kein Imperium, keine Flotte, keine Superwaffe entscheidet den Ausgang — nur Paddle, Ball, Reaktion und Nerven.
 
-## 8.2 Story-Scope im MVP
+### Story-Scope im MVP
 
 Der MVP enthält:
 

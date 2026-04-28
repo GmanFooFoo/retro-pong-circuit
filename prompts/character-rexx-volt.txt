@@ -1,0 +1,19 @@
+Create a pixel-art character portrait card for an 80s arcade sci-fi tournament roster. Visual only — no text, letters, or numbers in the image; the character name will be added separately as a typography overlay.
+
+Character:
+Rexx Volt, the Plasma Hammer of Voltara Prime
+
+Role:
+Striker — energy powerhouse and show-off, retro sci-fi tournament fighter
+
+Personality:
+Does not play to score. He plays to make impacts. His fans call him the Plasma Hammer. His opponents are usually busy chasing the ball. Flashy, aggressive, loud energy. Maximum power, minimum patience.
+
+Visual cues:
+broad-shouldered alien-looking champion, wild electric hair standing upright with visible voltage arcs or lightning sparks, glowing energy belt around the waist pulsing with plasma energy, powerful built physique suggesting raw strength, expressive aggressive or cocky face, head and shoulders or upper-body framing
+
+Style:
+modern pixel-art retro style, dark neon arcade UI background, sci-fi tournament roster card, strong silhouette, clean readable pixel art, cyan and magenta neon accents from the Retro Pong Circuit visual identity, with the addition of electric yellow and plasma orange accents for Rexx Volt's high-voltage energy aesthetic — the most visually loud and energetic character in the roster
+
+Requirements:
+arcade character select screen vibe, 80s neon interface, compact centered composition, absolutely no text or letters or numbers or signage visible in the image, no external logos, no brand references, no third-party character likenesses (no resemblance to Blanka, Zangief, Thor, Pikachu, or other copyrighted electric/power characters), no photorealism, no 3D render

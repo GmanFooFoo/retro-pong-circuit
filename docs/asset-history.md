@@ -75,6 +75,54 @@ Eintragsformat:
 
 ---
 
+## 2026-04-28 · Run 9 — Character Portrait: Glitch-Ø
+
+| Feld | Wert |
+|---|---|
+| Asset (final) | `assets/characters/glitch-zero.png` (256×256) + `assets/characters/glitch-zero-upscaled.png` (1024×1024) — User-Pick: **Variante 02** (Android-Gesicht mit mechanischen Nähten, normales linkes Auge, Cyan-Pixel-Disintegration rechtes Auge). |
+| Asset (archive) | `assets/archive/characters/glitch-zero-01.png` + `-upscaled.png` (Ghost-Hologram, scanline corruptions, normale linke Auge, Rot-Orange-Plasma-Explosion rechtes Auge — ghost-haft, atmosphärisch, aber weniger Android-Körper-Feeling). |
+| Prompt-Quelle | [`prompts/character-glitch-zero.txt`](../prompts/character-glitch-zero.txt) — Befüllung des PRD §23.5 Templates mit Glitch-Ø-Specs aus PRD §14.8 (Chaos Unit, fehlerhafte Turniereinheit, broken hologram, flickering pixel edges, asymmetric eye, glitch-green/static-white corruption accents). Text-frei. |
+| API-Modell | `rd_pro` |
+| Style | `rd_pro__scifi` (Konsistenz mit gesamtem Roster) |
+| Auflösung | 256×256 |
+| Varianten | 2 |
+| API-Cost | ~0.36 Credits (Balance vorher ~2.98 → nachher ~2.62) · Hinweis: ein fehlgeschlagener Background-Task-Versuch konnte zusätzlich 0.36 Credits verbraucht haben — exakte Balance nicht verifiziert. |
+| Cost-Check vorher | ✅ ja |
+| Auswahl | **Variante 02** (User-Pick 2026-04-28). Begründung: Android-Körper mit mechanischen Nähten + Pixel-Disintegration-Auge ist im Roster einzigartig (einziger Charakter der mechanisch-körperhaft + gleichzeitig korrumpiert wirkt), Cyan-Disintegration-Auge als Single-Point-of-Asymmetry ist präziser als V01's volle Plasma-Explosion-Seite. Passt besser zu PRD-Fiction "corrupted tournament unit". MASCHIN hatte V01 empfohlen; User wählte V02. |
+| Iteration-Runde | 1 von max 3 |
+| Reproduzieren | `./scripts/generate-asset.sh prompts/character-glitch-zero.txt assets/characters/glitch-zero.png rd_pro__scifi 256 256 false 2` |
+
+**Notes:**
+- Charakter 6 von 6 — MVP-Roster vollständig. Alle sechs Champions generiert, vom User abgenommen, finalisiert und archiviert.
+- Background-Task-Doppelrun-Bug: erster Spawn-Versuch (bxkvaluic) produzierten keine Dateien — unklar ob API-Call erfolgte. Sicherheits-Annahme: +0.36 Credits verbraucht ohne Output. Wenn tatsächlich kein API-Call erfolgte, wäre Balance ~0.36 höher.
+- V02's Asymmetrie (normales linkes Auge vs. zerfallendes rechtes Auge) ist das stärkste visuell-erzählerische Element im gesamten Roster — wirkt als würde das Wesen mid-render korrumpieren.
+- V01's Ghost-Hologram-Körper (transluzente Felder, fehlende Pixel) wäre gut als Intro-Screen oder Horror-Variation einsetzbar (Backlog).
+
+---
+
+## 2026-04-28 · Run 8 — Character Portrait: Rexx Volt
+
+| Feld | Wert |
+|---|---|
+| Asset (final) | `assets/characters/rexx-volt.png` (256×256) + `assets/characters/rexx-volt-upscaled.png` (1024×1024) — User-Pick: **Variante 01** (Grüne Alien-Haut, breite Schultern, Plasma-Vortex-Gürtel, wild elektrisches Haar, goldener Frame). |
+| Asset (archive) | `assets/archive/characters/rexx-volt-02.png` + `-upscaled.png` (zweite Variante archiviert). |
+| Prompt-Quelle | [`prompts/character-rexx-volt.txt`](../prompts/character-rexx-volt.txt) — Befüllung des PRD §23.5 Templates mit Rexx-Volt-Specs aus PRD §14.5 (Striker, Plasma Colony Voltara Prime, breitschultiger Alien-Champion, Energiegürtel, Blitzfrisur, Yellow/Orange Plasma-Accents). Text-frei. |
+| API-Modell | `rd_pro` |
+| Style | `rd_pro__scifi` (Konsistenz mit gesamtem Roster) |
+| Auflösung | 256×256 |
+| Varianten | 2 |
+| API-Cost | 0.36 Credits (Balance vorher 3.34 → nachher 2.98) |
+| Cost-Check vorher | ✅ ja |
+| Auswahl | **Variante 01** (User-Pick: "Rex Volt 1"). Grüne Alien-Skin + Plasma-Vortex-Gürtel + wild elektrisches Haar verkauft die PRD-Fiction "Plasma Hammer" visuell direkt. Gold-Frame passt zur Voltara-Prime-Energie-Ästhetik. |
+| Iteration-Runde | 1 von max 3 |
+| Reproduzieren | `./scripts/generate-asset.sh prompts/character-rexx-volt.txt assets/characters/rexx-volt.png rd_pro__scifi 256 256 false 2` |
+
+**Notes:**
+- Charakter 5 von 6. Rexx Volt als bewusster visueller Kontrast zu Captain Sol (Plasma-Drama vs. Stille) und zu Lyra Byte (rohe Energie vs. präzise Kontrolle).
+- Fünfter Charakter in Folge: 1 Iteration, User-Pick final, kein Rework nötig. Robustheit der Prompt-Templates (PRD §23.5) + `rd_pro__scifi` Style bestätigt.
+
+---
+
 ## 2026-04-28 · Run 7 — Character Portrait: Captain Sol
 
 | Feld | Wert |

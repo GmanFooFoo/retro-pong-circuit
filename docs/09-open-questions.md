@@ -2,11 +2,11 @@
 
 > **Offene Punkte für spätere Detailklärung — Living Doc.**
 >
-> Diese Datei enthält die Sektion **§30 Offene Punkte** aus der Original-PRD. Aktualisieren wir laufend, während das Spiel entsteht.
+> Enthält: offene Punkte aus dem PRD und Zusatzfragen aus dem Kickstart. Aktualisieren wir laufend, während das Spiel entsteht. *(Original-PRD: §30)*
 
 ---
 
-## **30. Offene Punkte für spätere Detailklärung**
+## 9.1 Offene Punkte für spätere Detailklärung
 
 Vor Umsetzung oder während der ersten Claude-Code-Iteration müssen später noch geklärt werden:
 
@@ -23,9 +23,7 @@ Vor Umsetzung oder während der ersten Claude-Code-Iteration müssen später noc
 
 Diese Punkte sind bewusst nicht Teil der fachlichen Grundklärung, sondern gehören in die spätere Umsetzungsplanung.
 
----
-
-## Zusatzfragen aus dem Kickstart (2026-04-28)
+## 9.2 Zusatzfragen aus dem Kickstart
 
 Während des Repo-Bootstraps aufgetaucht, separat von §30:
 
@@ -38,4 +36,4 @@ Während des Repo-Bootstraps aufgetaucht, separat von §30:
 
 ---
 
-← [Zurück zum README](../README.md) · Vorher: [07-roadmap.md](07-roadmap.md)
+← [Zurück zum README](../README.md) · Vorher: [08-roadmap.md](08-roadmap.md)

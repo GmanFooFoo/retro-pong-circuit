@@ -2,15 +2,15 @@
 
 > **Was kommt nach dem MVP — V2-Backlog und V3-Ideen.**
 >
-> Diese Datei bündelt aus der Original-PRD die Sektionen **§26 V2-Backlog (Gameplay, Charaktere, Audio/Visuals, Spielsysteme)** und **§27 V3-Ideen**. Excitement-Builder und langfristige Vision — kein Commitment, sondern Inspirationsraum.
+> Enthält: V2-Backlog (Gameplay, Charaktere, Audio/Visuals, Spielsysteme) und V3-Ideen. Excitement-Builder und langfristige Vision — kein Commitment, sondern Inspirationsraum. *(Original-PRD: §26, §27)*
 
 ---
 
-## **26. V2-Backlog**
+## 8.1 V2-Backlog
 
 Für eine spätere Version sind folgende Erweiterungen denkbar:
 
-## **26.1 Gameplay**
+### Gameplay
 
 1. Lokaler Zwei-Spieler-Modus.
 2. Power-ups.
@@ -21,7 +21,7 @@ Für eine spätere Version sind folgende Erweiterungen denkbar:
 7. Turnierfortschritt mit steigender Schwierigkeit.
 8. Erweiterte CPU-Verhaltensmuster.
 
-## **26.2 Charaktere und Welten**
+### Charaktere und Welten
 
 1. Weitere Charakterwelten.
 2. Fantasy-Retro-Welt.
@@ -32,7 +32,7 @@ Für eine spätere Version sind folgende Erweiterungen denkbar:
 7. Rivalitäts-Erweiterungen.
 8. Skin-Packs.
 
-## **26.3 Audio und Visuals**
+### Audio und Visuals
 
 1. Charakter-spezifische Sounds.
 2. Arena-spezifische Musik.
@@ -43,7 +43,7 @@ Für eine spätere Version sind folgende Erweiterungen denkbar:
 7. Erweiterte Winner-Screens.
 8. Animierte Charakter-Intros.
 
-## **26.4 Spielsysteme**
+### Spielsysteme
 
 1. Leaderboards.
 2. Achievements.
@@ -52,7 +52,7 @@ Für eine spätere Version sind folgende Erweiterungen denkbar:
 5. Mini-Profil oder lokaler Fortschritt.
 6. Optionaler Online-Modus.
 
-## **27. V3-Ideen**
+## 8.2 V3-Ideen
 
 Langfristig denkbar:
 
@@ -70,4 +70,4 @@ Langfristig denkbar:
 
 ---
 
-← [Zurück zum README](../README.md) · Vorher: [06-meta.md](06-meta.md) · Weiter: [08-open-questions.md](08-open-questions.md)
+← [Zurück zum README](../README.md) · Vorher: [07-meta.md](07-meta.md) · Weiter: [09-open-questions.md](09-open-questions.md)
