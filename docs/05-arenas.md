@@ -24,6 +24,10 @@ Die Arenen unterscheiden sich visuell, aber nicht mechanisch.
 
 Klassische 80er-Arcade-Arena mit dunklem Hintergrund, Neonraster, klarer Mittellinie und sehr guter Lesbarkeit.
 
+<p align="center">
+  <img src="../assets/arenas/neon-grid-court-upscaled.png" alt="Neon Grid Court – classic 80s arcade arena with neon grid floor, clear center line, and nebula horizon" width="560">
+</p>
+
 Verwendung:
 
 1. Free Match.
@@ -34,6 +38,8 @@ Verwendung:
 
 Raumstationsarena mit Blick auf Sterne, Orbit-Linien oder einen fernen Planetenring.
 
+> *Visual: noch nicht generiert.*
+
 Verwendung:
 
 1. Free Match.
@@ -43,6 +49,8 @@ Verwendung:
 ## 5.5 Laser Alley
 
 Dunklere, intensivere Arena mit Laserlinien, hohem Kontrast und stärkerem Finalgefühl.
+
+> *Visual: noch nicht generiert.*
 
 Verwendung:
 
@@ -62,4 +70,4 @@ Verwendung:
 
 ---
 
-← [Zurück zum README](../README.md) · Vorher: [04-characters.md](04-characters.md) · Weiter: [06-art-and-audio.md](06-art-and-audio.md)
+← [Zurück zum README](../README.md) · Vorher: [04-characters.md](04-characters.md) · Weiter: [06-art-and-audio.md](06-art-and-audio.md) · Visuals: [Asset Gallery](asset-gallery.md)
