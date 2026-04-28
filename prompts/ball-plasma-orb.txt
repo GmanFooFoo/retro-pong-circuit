@@ -1,0 +1,16 @@
+Create a pixel-art ball skin for a retro 80s arcade sci-fi paddle game.
+
+Ball skin:
+Plasma Orb — a round sci-fi energy sphere with internal electric arcs
+
+Description:
+A perfectly round full-volume energy sphere at the center of the frame. Hot orange and yellow plasma palette with red-orange edges. Inside the sphere, a few flickering electric arcs or lightning veins crackle outward from a bright white-hot core, suggesting unstable contained plasma. The sphere has more visual mass than Neon Core — it reads as a full energy ball, not just a glowing point. Outer edge has a faint red-orange halo.
+
+Visual cues:
+single perfectly round sphere, centered composition, dark background, orange-yellow-red dominant palette, white-hot inner core, 2-4 thin electric arcs visible inside the sphere as bright filaments, faint red-orange outer halo, no trail, no motion blur, no other elements
+
+Style:
+modern pixel-art retro style, 80s neon sci-fi, clear circular silhouette, very high contrast, arcade game ball, readable against dark backgrounds, limited but vibrant orange-yellow-red plasma palette, distinct from cyan/magenta family of other Retro Pong Circuit assets
+
+Requirements:
+readable during fast gameplay, perfectly circular silhouette (not oval, not angular), internal arcs must stay inside the sphere (do not extend outside the silhouette), no text, no logo, no copyrighted references, no excessive details, no photorealism, no 3D render, no character or paddle in frame, no arena or background scene — just the sphere on a clean dark backdrop

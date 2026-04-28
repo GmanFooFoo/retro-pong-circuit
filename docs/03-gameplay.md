@@ -97,13 +97,13 @@ Er wirkt wie ein kleiner Laser-Puck oder Energieball, bleibt aber funktional kla
 
 Der MVP enthält fünf auswählbare Ball-Skins.
 
-| Ball-Skin | Look | Mechanik |
-|---|---|---|
-| Neon Core | klassischer leuchtender Arcade-Ball | neutral |
-| Laser Puck | flacher, schneller Laser-Look | neutral |
-| Plasma Orb | runde Sci-Fi-Energiekugel | neutral |
-| Pixel Comet | kleiner Komet mit Trail | neutral |
-| Grid Spark | eckiger Pixel-Funken | neutral |
+| Ball-Skin | Look | Mechanik | Vorschau |
+|---|---|---|---|
+| Neon Core | klassischer leuchtender Arcade-Ball | neutral | <img src="../assets/balls/neon-core-upscaled.png" alt="Neon Core ball skin – cyan glowing arcade ball" width="80"> |
+| Laser Puck | flacher, schneller Laser-Look | neutral | <img src="../assets/balls/laser-puck-upscaled.png" alt="Laser Puck ball skin – flat magenta-pink lens disc" width="80"> |
+| Plasma Orb | runde Sci-Fi-Energiekugel | neutral | <img src="../assets/balls/plasma-orb-upscaled.png" alt="Plasma Orb ball skin – orange-yellow plasma sphere with cyan electric arcs" width="80"> |
+| Pixel Comet | kleiner Komet mit Trail | neutral | *noch nicht generiert* |
+| Grid Spark | eckiger Pixel-Funken | neutral | <img src="../assets/balls/grid-spark-upscaled.png" alt="Grid Spark ball skin – angular lime-green and cyan pixel-burst" width="80"> |
 
 ### Ball-Regeln
 
@@ -200,4 +200,4 @@ Credits enthalten:
 
 ---
 
-← [Zurück zum README](../README.md) · Vorher: [02-mvp-scope.md](02-mvp-scope.md) · Weiter: [04-characters.md](04-characters.md)
+← [Zurück zum README](../README.md) · Vorher: [02-mvp-scope.md](02-mvp-scope.md) · Weiter: [04-characters.md](04-characters.md) · Visuals: [Asset Gallery](asset-gallery.md)

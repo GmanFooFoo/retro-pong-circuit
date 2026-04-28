@@ -1,0 +1,16 @@
+Create a pixel-art ball skin for a retro 80s arcade sci-fi paddle game.
+
+Ball skin:
+Laser Puck — a flat, fast-looking laser disc
+
+Description:
+A flat, slightly oval lens-shaped puck centered in the frame. Magenta-pink dominant palette. The puck reads as a thin disc seen almost edge-on, with a hot bright magenta-pink rim ring and a darker magenta interior with a small intense white-hot center. Suggests speed and sharpness — like a slice of pure laser. No trail behind it (this skin is selected via the option menu, not in motion).
+
+Visual cues:
+single near-circular but slightly horizontally elongated lens shape, centered composition, dark background, magenta and hot-pink dominant palette, bright laser-glow rim ring, small white-hot center, no trail, no motion blur, no other elements
+
+Style:
+modern pixel-art retro style, 80s neon sci-fi, clear flat-puck silhouette, very high contrast, arcade game ball, readable against dark backgrounds, limited but vibrant magenta-pink palette with cool counter-rim, same visual language as Laser Alley arena
+
+Requirements:
+readable during fast gameplay, must read as a flat puck (slightly wider than tall, oval lens-shape) but still close to circular — never a full streak, never a triangle, never a beam, no text, no logo, no copyrighted references, no excessive details, no photorealism, no 3D render, no character or paddle in frame, no arena or background scene — just the puck on a clean dark backdrop

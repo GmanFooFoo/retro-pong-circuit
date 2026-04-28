@@ -115,6 +115,54 @@ Für den vollständigen Audit-Trail (Prompts, Parameter, Kosten, Iterationen) si
 
 ---
 
+## Ball Skins
+
+### Neon Core
+
+> Klassischer leuchtender Arcade-Ball — der Default-Pong-Ball dieses Universums. Cyan-Halo um einen weiß-heißen Kern.
+
+<p align="center">
+  <img src="../assets/balls/neon-core-upscaled.png" alt="Neon Core ball skin – cyan glowing arcade ball with smooth halo and white-hot center" width="320">
+</p>
+
+**Status:** Final · 2026-04-29 · User-Pick: Variante 01 (Smooth cyan halo, kompakter weiß-heißer Kern, klare Silhouette). Alternative Variante 02 (gedithertes Halo-Noise) archiviert in `assets/archive/balls/`.
+
+### Laser Puck
+
+> Flacher, schneller Laser-Look. Magenta-pinker Top-Down-Lens-Disc mit Hot-White-Zentrum.
+
+<p align="center">
+  <img src="../assets/balls/laser-puck-upscaled.png" alt="Laser Puck ball skin – flat magenta-pink lens disc with white-hot center" width="320">
+</p>
+
+**Status:** Final · 2026-04-29 · User-Pick: Variante 02 (Top-down 2D-Linsenform, symmetrisches Oval, magenta Rim mit weiß-heißem Zentrum). Alternative Variante 01 (isometrische 3D-Perspektive) archiviert in `assets/archive/balls/` — disqualifiziert wegen PRD §6.6 Negativ-Kriterium #2 "wie 3D-Rendering aussieht".
+
+### Plasma Orb
+
+> Runde Sci-Fi-Energiekugel. Orange-rote Plasma-Schichten mit Cyan-Lightning-Arcs.
+
+<p align="center">
+  <img src="../assets/balls/plasma-orb-upscaled.png" alt="Plasma Orb ball skin – orange-yellow plasma sphere with cyan electric arcs and white-hot core" width="320">
+</p>
+
+**Status:** Final · 2026-04-29 · User-Pick: Variante 02 (Sauberer radialer Gradient, 3 klare Cyan-Lightning-Arcs, dominanter weiß-heißer Mittelpunkt). Alternative Variante 01 (überladene Flammen-Swirl-Komposition) archiviert in `assets/archive/balls/` — disqualifiziert wegen visueller Überladung (PRD §6.6 Negativ-Kriterium #9, "verschleiern" Kollisionspunkt).
+
+### Pixel Comet
+
+`<noch nicht generiert>` (defer — komplexester Spec mit Trail, geplant für nächste Generation-Runde nach Top-up)
+
+### Grid Spark
+
+> Eckiger Pixel-Funken. Lime-grüner und cyan 8-Punkt-Pixel-Burst — die einzige nicht-runde Ball-Variante.
+
+<p align="center">
+  <img src="../assets/balls/grid-spark-upscaled.png" alt="Grid Spark ball skin – angular lime-green and white-cyan pixel-burst on dark backdrop" width="320">
+</p>
+
+**Status:** Final · 2026-04-29 · User-Pick: Variante 01 (Clean Dark Backdrop, 8-Punkt-Pixel-Burst, scharfe Kanten, kompakte Silhouette). Alternative Variante 02 (Cosmic-Background-Szene mit Planeten) archiviert in `assets/archive/balls/` — disqualifiziert wegen Hintergrund-Verstoß ("just the spark on a clean dark backdrop").
+
+---
+
 ## Branding / Marketing
 
 ### Social Preview
@@ -135,7 +183,7 @@ Für den vollständigen Audit-Trail (Prompts, Parameter, Kosten, Iterationen) si
 | Startscreen / Hero | 1 | 1 ✅ | 100% |
 | Charaktere | 6 | 6 ✅ (Nova Vex, Brakk-9, Lyra Byte, Rexx Volt, Captain Sol, Glitch-Ø) | 100% |
 | Arenen | 3 | 3 ✅ (Neon Grid Court, Orbital Arcade Deck, Laser Alley) | 100% |
-| Ball-Skins | 5 | 0 | 0% |
+| Ball-Skins | 5 | 4 ✅ (Neon Core, Laser Puck, Plasma Orb, Grid Spark) · ⏳ Pixel Comet | 80% |
 | UI-Elements | mehrere | 0 | 0% |
 | Audio | mehrere | 0 | 0% |
 | **Branding** | | | |
