@@ -75,6 +75,31 @@ Eintragsformat:
 
 ---
 
+## 2026-04-28 · Run 7 — Character Portrait: Captain Sol
+
+| Feld | Wert |
+|---|---|
+| Asset (final) | `assets/characters/captain-sol.png` (256×256) + `assets/characters/captain-sol-upscaled.png` (1024×1024) — User-Pick: **Variante 02** (Goldfish-Bowl-Helm mit goldenem Randring, silbergraues Haar, ruhiges Halblächeln, HUD-Panels im Hintergrund, Stern-Patches auf beiden Schultern). |
+| Asset (archive) | `assets/archive/characters/captain-sol-01.png` + `-upscaled.png` (Versiegelter weißer Bubble-Helm, älteres Gesicht durch Visier, geometrisches Stern-Emblem auf Schulter, warme Amber-Lichtknoten im Hintergrund — stoisch, distanziert). |
+| Prompt-Quelle | [`prompts/character-captain-sol.txt`](../prompts/character-captain-sol.txt) — Befüllung des PRD §23.5 Templates mit Captain-Sol-Specs aus PRD §14.6 (Balanced Pilot, Sol Federation Training Fleet, Retro-Astronaut, weißer Helm, Schulterstreifen, ruhige Haltung). Text-frei. |
+| API-Modell | `rd_pro` |
+| Style | `rd_pro__scifi` (Konsistenz mit gesamtem Roster) |
+| Auflösung | 256×256 |
+| Varianten | 2 |
+| API-Cost | 0.36 Credits (Balance vorher 3.70 → nachher 3.34) |
+| Cost-Check vorher | ✅ ja |
+| Auswahl | **Variante 02** (User-Pick + MASCHIN-Empfehlung übereinstimmend). Begründung: Goldfish-Bowl ist die einzigartigste Helm-Silhouette im Roster (einziger Charakter ohne geschlossenes Visier/Visor), Gold-Ring ist ein emergenter "Sol/Solar"-Referenz-Detail, Silberhaar + ruhiges Halblächeln verkauft die PRD-Fiction "very long patience bar" visuell besser als das stoische Sealed-Helmet V01. |
+| Iteration-Runde | 1 von max 3 |
+| Reproduzieren | `./scripts/generate-asset.sh prompts/character-captain-sol.txt assets/characters/captain-sol.png rd_pro__scifi 256 256 false 2` |
+
+**Notes:**
+- Charakter 4 von 6 für MVP-Roster. Captain Sol als bewusster Kontrast zu allen anderen: kein Robot, keine Spezialausrüstung, kein Drama — nur ein erfahrener Veteran im klassischen Raumanzug.
+- Der goldene Helm-Ring in V02 war emergent (Prompt sagte "star-yellow accents", Modell interpretierte das als Gold-Rim am Helm-Anschluss). Passt perfekt zu "Sol" (Sonne, Gold) — narrative Konsistenz als Bonus.
+- Viermal in Folge: Empfehlung und User-Pick übereinstimmend. Roster-Card-Energie + visuelle Distinctiveness als Auswahlprinzip hält.
+- MVP-Roster: 4 von 6 Charakteren durch (Nova Vex Speedster · Brakk-9 Defender · Lyra Byte Technician · Captain Sol Balanced Pilot). Verbleibend: Rexx Volt Striker + Glitch-Ø Chaos Unit.
+
+---
+
 ## 2026-04-28 · Run 6 — Character Portrait: Lyra Byte
 
 | Feld | Wert |

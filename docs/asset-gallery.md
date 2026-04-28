@@ -53,9 +53,15 @@ Für den vollständigen Audit-Trail (Prompts, Parameter, Kosten, Iterationen) si
 
 `<noch nicht generiert>`
 
-### Captain Sol
+### Captain Sol — Balanced Pilot (Sol Federation Training Fleet)
 
-`<noch nicht generiert>`
+> The last representative of the old Arcade Fleet. No tricks. No plasma drama. No corrupted data magic. Just clean positioning and a very long patience bar.
+
+<p align="center">
+  <img src="../assets/characters/captain-sol-upscaled.png" alt="Captain Sol – Balanced Pilot of the Sol Federation Training Fleet: pixel-art tournament roster card with goldfish-bowl helmet, gold ring, and silver hair" width="480">
+</p>
+
+**Status:** Final · 2026-04-28 · User-Pick: Variante 02 (Goldfish-Bowl-Helm mit goldenem Randring, silbergraues Haar, ruhiges Halblächeln, HUD-Panels). Alternative Variante 01 (versiegelter Bubble-Helm, ernst) archiviert in `assets/archive/characters/`.
 
 ### Glitch-Ø
 
@@ -103,7 +109,7 @@ Für den vollständigen Audit-Trail (Prompts, Parameter, Kosten, Iterationen) si
 | Asset-Kategorie | Soll (MVP) | Ist | Coverage |
 |---|---|---|---|
 | Startscreen / Hero | 1 | 1 ✅ | 100% |
-| Charaktere | 6 | 3 ✅ (Nova Vex, Brakk-9, Lyra Byte) | 50% |
+| Charaktere | 6 | 4 ✅ (Nova Vex, Brakk-9, Lyra Byte, Captain Sol) | 67% |
 | Arenen | 3 | 1 ✅ (Neon Grid Court) | 33% |
 | Ball-Skins | 5 | 0 | 0% |
 | UI-Elements | mehrere | 0 | 0% |

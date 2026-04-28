@@ -1,0 +1,19 @@
+Create a pixel-art character portrait card for an 80s arcade sci-fi tournament roster. Visual only — no text, letters, or numbers in the image; the character name will be added separately as a typography overlay.
+
+Character:
+Captain Sol, veteran pilot of the Sol Federation Training Fleet
+
+Role:
+Balanced Pilot — veteran all-rounder, retro sci-fi tournament fighter
+
+Personality:
+The last representative of the old Arcade Fleet. No tricks. No plasma drama. No corrupted data magic. Just clean positioning and a very long patience bar. Calm, dignified, experienced. Has seen every playstyle and countered all of them.
+
+Visual cues:
+veteran astronaut in a white or off-white flight suit, clean rounded retro helmet with clear visor showing a calm weathered face, shoulder rank stripes or star insignia indicating seniority (small geometric star emblem, not a real-world military badge), upright composed posture suggesting experience not aggression, head and shoulders or upper-body framing
+
+Style:
+modern pixel-art retro style, dark neon arcade UI background, sci-fi tournament roster card, strong silhouette, clean readable pixel art, cyan and magenta neon accents from the Retro Pong Circuit visual identity, with the addition of white and soft gold or star-yellow accents for the veteran federation look — clean contrast against the darker characters in the roster
+
+Requirements:
+arcade character select screen vibe, 80s neon interface, compact centered composition, absolutely no text or letters or numbers or signage visible in the image, no real-world military insignia, no NASA or ESA logos, no national flags, no brand references, no third-party character likenesses, no photorealism, no 3D render
