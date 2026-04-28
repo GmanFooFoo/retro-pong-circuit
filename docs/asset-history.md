@@ -52,6 +52,42 @@ Eintragsformat:
 
 ---
 
+## 2026-04-28 · Run 2 — Character Portrait: Nova Vex
+
+| Feld | Wert |
+|---|---|
+| Asset (PR-Stand) | Beide Varianten provisorisch in `assets/characters/`: `nova-vex-01.png` + `nova-vex-02.png` (jeweils + `-upscaled.png` 1024×1024). User pickt im PR. |
+| Prompt-Quelle | [`prompts/character-nova-vex.txt`](../prompts/character-nova-vex.txt) — Befüllung des PRD §23.5 Templates mit Nova-Vex-Specs aus PRD §14.2 (Speedster, Visor-Helm, Neon-Jacke, Jet-Boots, Cyan-Magenta-Akzente). Wieder text-frei. |
+| API-Modell | `rd_pro` |
+| Style | `rd_pro__scifi` (Konsistenz mit Hero) |
+| Auflösung | 256×256 |
+| Varianten | 2 |
+| API-Cost | 0.36 Credits (Balance vorher 5.14 → nachher 4.78) |
+| Cost-Check vorher | ✅ ja |
+| Auswahl | **offen** — User entscheidet im PR. MASCHIN-Empfehlung Bild 02 (Cityscape-im-Visor erzählt Neon-Sector-Lore, Flügel-Emblem stärkt Speedster-Identität). |
+| Iteration-Runde | 1 von max 3 |
+| Reproduzieren | `./scripts/generate-asset.sh prompts/character-nova-vex.txt assets/characters/nova-vex.png rd_pro__scifi 256 256 false 2` |
+
+**Notes:**
+- Both variants delivered the visor-helmet brief; Bild 02 added an unprompted Neon-Sector cityscape reflection in the visor — a fortunate emergent detail that ties tightly to the PRD §14.2 origin "Neon Sector 7."
+- Bild 01 included a roster-card frame with pseudo-text glyphs around the portrait — visually attractive but the glyphs are AI-noise; for production we want a hand-built consistent card frame across all six characters.
+
+---
+
+## 2026-04-28 · Run 3 — Social Preview Card
+
+| Feld | Wert |
+|---|---|
+| Asset (final) | `assets/social-preview.png` (1280×640, GitHub-Repo-Card-Standard) |
+| Quellen | `assets/startscreen-upscaled.png` (no-text Hero, Run 1 Bild 02) + `assets/fonts/PressStart2P-Regular.ttf` |
+| Tool | ImageMagick (`scripts/build-social-preview.sh`) |
+| Komposition | Split-Layout: links Title-Block ("RETRO PONG" / "CIRCUIT" in Cyan, "LAST ARCADE OF THE GALAXY" in Magenta, Repo-URL in dezentem Blau-Grau), rechts der Hero ohne Text auf 480×480 verkleinert. Hintergrund Dark Navy `#0B0F2E`. 80px Safe-Zone-Margin (entspricht den 40pt × 2 die GitHub für Repo-Cards empfiehlt). |
+| Cost | 0 (lokales Compositing, kein API-Call) |
+| Reproduzieren | `./scripts/build-social-preview.sh` |
+| Upload | GitHub Repo → Settings → Social preview → Edit → upload `assets/social-preview.png` |
+
+---
+
 ## Reproduzierbarkeits-Hinweis
 
 **Was gespeichert ist:**

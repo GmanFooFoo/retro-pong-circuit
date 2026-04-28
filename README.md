@@ -54,7 +54,8 @@ The full Product Requirements Document is split into eight thematic documents:
 | 6 | [06-meta.md](docs/06-meta.md) | Game language and legal / brand guardrails |
 | 7 | [07-roadmap.md](docs/07-roadmap.md) | V2 backlog and V3 ideas (post-MVP) |
 | 8 | [08-open-questions.md](docs/08-open-questions.md) | Open points to clarify as we build |
-| + | [asset-history.md](docs/asset-history.md) | Audit trail for every generated asset — prompt, parameters, cost, selection |
+| 🖼️ | [asset-gallery.md](docs/asset-gallery.md) | Visual gallery of all produced assets — hero, characters, arenas, branding |
+| 📜 | [asset-history.md](docs/asset-history.md) | Audit trail for every generated asset — prompt, parameters, cost, selection |
 
 > The original, unsplit PRD is preserved as a historical snapshot in [`docs/_archive/`](docs/_archive/) and is **not** maintained further. All active documentation lives in the eight files above.
 
