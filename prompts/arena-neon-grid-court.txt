@@ -1,0 +1,16 @@
+Create a pixel-art arena background for a modern retro 80s arcade sci-fi paddle game. Visual only — no text, letters, or numbers in the image; arena title and UI elements will be added separately.
+
+Arena:
+Neon Grid Court — the classic standard arena of the Retro Pong Circuit
+
+Description:
+Classic 80s arcade court with a deep dark background, a glowing neon grid floor receding to a vanishing point, two dim side walls suggesting a digital coliseum, and a clearly visible vertical center line dividing the play field. Calm, iconic, the default arena where new pilots prove they belong. No spectators, no obstacles, no decorative clutter — just the grid, the line, and the readable play space.
+
+Visual cues:
+horizontal landscape composition, vanishing-point neon grid floor (cyan or magenta lines on dark navy), subtle horizon glow, faint vertical center line drawn from top to bottom, clean side walls or empty dark space at the edges, no paddles or ball drawn (those will be rendered by the game on top), generous empty space in the central play area for paddles and ball
+
+Style:
+modern pixel-art retro style, dark neon palette, 80s arcade sci-fi, high contrast, clean geometric shapes, atmospheric but not distracting, readable gameplay space, cyan and magenta neon accents matching the Retro Pong Circuit visual identity (same palette as the startscreen and Nova Vex roster card)
+
+Gameplay requirements:
+background must not overpower ball or paddles, no bright clutter near play area, clear center field, clear vertical center line, suitable for fast arcade gameplay, absolutely no text or letters or numbers or signage, no logos, no copyrighted references, no third-party arcade likenesses, no photorealism, no 3D render

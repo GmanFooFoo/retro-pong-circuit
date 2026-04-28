@@ -75,6 +75,31 @@ Eintragsformat:
 
 ---
 
+## 2026-04-28 · Run 4 — Arena 1: Neon Grid Court
+
+| Feld | Wert |
+|---|---|
+| Asset (final) | `assets/arenas/neon-grid-court.png` (256×256) + `assets/arenas/neon-grid-court-upscaled.png` (1024×1024) — User-Pick: **Variante 02** (Framed Coliseum mit Nebula-Horizon, klare zentrale Mittellinie top-to-bottom, leerer zentraler Play-Bereich, zwei Mini-Bunker-Details am Boden). |
+| Asset (archive) | `assets/archive/arenas/neon-grid-court-01.png` + `-upscaled.png` (Split-Floor mit cyan-linker / magenta-rechter Hälfte, urban-skyline-Andeutung am Horizon — wirkte wie 2-Player-Hint, im MVP 1P-vs-CPU nicht passend, plus helle Horizon-Streifen drohten Ball-Lesbarkeit zu stören). |
+| Prompt-Quelle | [`prompts/arena-neon-grid-court.txt`](../prompts/arena-neon-grid-court.txt) — Befüllung des PRD §23.8 Arena-Background-Templates mit Specs aus PRD §16.3 (Standard-Arena, dunkler Hintergrund, Neon-Raster, klare Mittellinie, sehr gute Lesbarkeit). Wieder text-frei. |
+| API-Modell | `rd_pro` |
+| Style | `rd_pro__scifi` (Konsistenz mit Hero und Nova Vex) |
+| Auflösung | 256×256 |
+| Varianten | 2 |
+| API-Cost | 0.36 Credits (Balance vorher 4.78 → nachher 4.42) |
+| Cost-Check vorher | ✅ ja |
+| Auswahl | **Variante 02** (User-Pick + MASCHIN-Empfehlung übereinstimmend). Begründung: PRD §16.3 fordert "klarer Mittellinie" (Variante 02 hat saubere vertikale Linie, Variante 01 nicht), PRD §23.8 fordert "clear center field, background must not overpower ball or paddles" (Variante 02 hat saubere leere Mitte). Konsistente Cyan-Magenta-Palette mit Hero und Nova Vex Card. |
+| Iteration-Runde | 1 von max 3 |
+| Reproduzieren | `./scripts/generate-asset.sh prompts/arena-neon-grid-court.txt assets/arenas/neon-grid-court.png rd_pro__scifi 256 256 false 2` |
+
+**Notes:**
+- Arena 1 von 3 für MVP-Asset-Coverage. Mit Hero + Nova Vex + Arena 1 sind 3 grosse MVP-Asset-Klassen vertreten (key visual + erster Charakter + Standard-Arena).
+- Beide Varianten lieferten den Tron-Floor-Vanishing-Point sauber. Variante 01's Split-Floor war ein interessanter unprompted Detail (linke Hälfte cyan, rechte Hälfte magenta) — würde für V2 lokaler 2P-Modus (PRD §26.1) thematisch passen, ist aber für 1P vs CPU im MVP nicht passend.
+- Variante 02 ergänzte unprompted eine Box-Frame-Umrahmung um die Arena (subtle Linien an den Edges) — tied tightly an die "digital coliseum"-Beschreibung im Prompt. Plus zwei kleine maschinendetail-Bunker am Horizont (links + rechts) als Sci-Fi-Würze ohne Spielfeld zu stören.
+- Pattern bestätigt: rd_pro__scifi Style + 256×256 + 2 Varianten + cost-check first ist die etablierte Default-Konfiguration für alle weiteren Asset-Klassen.
+
+---
+
 ## 2026-04-28 · Run 3 — Social Preview Card
 
 | Feld | Wert |

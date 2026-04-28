@@ -55,7 +55,13 @@ Für den vollständigen Audit-Trail (Prompts, Parameter, Kosten, Iterationen) si
 
 ### Neon Grid Court
 
-`<noch nicht generiert>`
+> Klassische 80er-Arcade-Standardarena. Dunkler Hintergrund, Neon-Raster, klare Mittellinie. Free Match + Runde 1 im Mini-Turnier.
+
+<p align="center">
+  <img src="../assets/arenas/neon-grid-court-upscaled.png" alt="Neon Grid Court – classic 80s arcade arena with neon grid floor, clear center line, and nebula horizon" width="640">
+</p>
+
+**Status:** Final · 2026-04-28 · User-Pick: Variante 02 (Framed Coliseum mit Nebula-Horizon und klarer zentraler Mittellinie). Alternative Variante 01 archiviert in `assets/archive/arenas/`.
 
 ### Orbital Arcade Deck
 
@@ -86,7 +92,7 @@ Für den vollständigen Audit-Trail (Prompts, Parameter, Kosten, Iterationen) si
 |---|---|---|---|
 | Startscreen / Hero | 1 | 1 ✅ | 100% |
 | Charaktere | 6 | 1 ✅ (Nova Vex) | 17% |
-| Arenen | 3 | 0 | 0% |
+| Arenen | 3 | 1 ✅ (Neon Grid Court) | 33% |
 | Ball-Skins | 5 | 0 | 0% |
 | UI-Elements | mehrere | 0 | 0% |
 | Audio | mehrere | 0 | 0% |
