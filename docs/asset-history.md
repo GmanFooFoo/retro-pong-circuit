@@ -75,6 +75,32 @@ Eintragsformat:
 
 ---
 
+## 2026-04-28 · Run 5 — Character Portrait: Brakk-9
+
+| Feld | Wert |
+|---|---|
+| Asset (final) | `assets/characters/brakk-9.png` (256×256) + `assets/characters/brakk-9-upscaled.png` (1024×1024) — User-Pick: **Variante 02** (Roster-Card-Layout mit HUD-Frame und drei kleinen Stat-Icons oben rechts: Lightning / Downward-Arrow / Dial — emergent Speed/Reach/Power-Andeutungen). |
+| Asset (archive) | `assets/archive/characters/brakk-9-01.png` + `-upscaled.png` (Full-body Defender-Poster, octagonal Frame, hazard-banner über die ganze Brust, Magenta-Cyan-Rim-Light, on-grid stehend — sehr ikonischer Hero-Poster, könnte später als Charakter-Intro oder Winner-Screen-Pose dienen). |
+| Prompt-Quelle | [`prompts/character-brakk-9.txt`](../prompts/character-brakk-9.txt) — Befüllung des PRD §23.5 Templates mit Brakk-9-Specs aus PRD §14.3 (Defender, Box-Body, Single-Eye, hazard-stripes, panzerplatten armor). Wieder text-frei. |
+| API-Modell | `rd_pro` |
+| Style | `rd_pro__scifi` (Konsistenz mit Hero, Nova Vex, Arena 1) |
+| Auflösung | 256×256 |
+| Varianten | 2 |
+| API-Cost | 0.36 Credits (Balance vorher 4.42 → nachher 4.06) |
+| Cost-Check vorher | ✅ ja |
+| Auswahl | **Variante 02** (User-Pick + MASCHIN-Empfehlung übereinstimmend). Begründung: Roster-Card-Konsistenz mit Nova Vex 01 (auch Roster-Card-Layout), emergent Stat-Icon-HUD passt narrativ direkt zu PRD §13.2 Stat-Konzept (Speed, Reach, Control, Power), Tournament-Select-Screen-Vibe klarer. |
+| Iteration-Runde | 1 von max 3 |
+| Reproduzieren | `./scripts/generate-asset.sh prompts/character-brakk-9.txt assets/characters/brakk-9.png rd_pro__scifi 256 256 false 2` |
+
+**Notes:**
+- Charakter 2 von 6 für MVP-Roster. Defender als bewusster visueller Kontrast zur Speedster Nova Vex (boxy industrial vs sleek pilot, single-eye-cyan vs visor-helm, hazard-stripes vs neon-jacket).
+- Beide Varianten lieferten den boxy-defender-with-single-eye-and-hazard-stripes brief sauber. Pattern-Hold: PRD §14.3 Visual-Cues funktionieren als Prompt-Input direkt.
+- Variante 01 ergänzte unprompted eine "stehend auf Tron-Grid"-Komposition — würde gut als Charakter-Intro-Screen oder Winner-Screen-Pose funktionieren (Backlog-Idea: T-character-intro-screen-poses).
+- Variante 02 ergänzte unprompted drei kleine Stat-Icons (Lightning / Down-Arrow / Dial) im HUD — narrative Bonus passt zu PRD-Stats. AI-noise-glyphs an den Frame-Ecken sind weiter ein bekanntes Issue (T-retro-pong-card-frame-design Backlog), beide Varianten betroffen.
+- Pattern bestätigt (3. Asset-Generation in Folge mit identischer Konfiguration): rd_pro__scifi + 256×256 + 2 Varianten + cost-check first ist die robuste Default-Konfiguration.
+
+---
+
 ## 2026-04-28 · Run 4 — Arena 1: Neon Grid Court
 
 | Feld | Wert |

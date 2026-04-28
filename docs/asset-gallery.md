@@ -29,9 +29,15 @@ Für den vollständigen Audit-Trail (Prompts, Parameter, Kosten, Iterationen) si
 
 **Status:** Final · 2026-04-28 · User-Pick: Variante 01 (Tournament Roster Card mit Visor-HUD-Reflexion und kreisrundem Brust-Emblem). Alternative Variante 02 archiviert in `assets/archive/characters/`.
 
-### Brakk-9 — Defender
+### Brakk-9 — Defender (Outer Ring of the Titan Shipyards)
 
-`<noch nicht generiert>`
+> Built to seal space dock gates against meteor strikes. In the Circuit, he does the same thing: he stands in the way. Not elegant. Not fast. Very hard to pass.
+
+<p align="center">
+  <img src="../assets/characters/brakk-9-upscaled.png" alt="Brakk-9 – Defender from the Outer Ring of the Titan Shipyards: pixel-art tournament roster card with hazard-stripe armor and single cyan eye" width="480">
+</p>
+
+**Status:** Final · 2026-04-28 · User-Pick: Variante 02 (Roster-Card mit HUD-Stat-Icons oben rechts und Grid-Pattern-Hintergrund). Alternative Variante 01 (full-body Defender-Poster mit octagonal Frame) archiviert in `assets/archive/characters/`.
 
 ### Lyra Byte
 
@@ -91,7 +97,7 @@ Für den vollständigen Audit-Trail (Prompts, Parameter, Kosten, Iterationen) si
 | Asset-Kategorie | Soll (MVP) | Ist | Coverage |
 |---|---|---|---|
 | Startscreen / Hero | 1 | 1 ✅ | 100% |
-| Charaktere | 6 | 1 ✅ (Nova Vex) | 17% |
+| Charaktere | 6 | 2 ✅ (Nova Vex, Brakk-9) | 33% |
 | Arenen | 3 | 1 ✅ (Neon Grid Court) | 33% |
 | Ball-Skins | 5 | 0 | 0% |
 | UI-Elements | mehrere | 0 | 0% |
