@@ -6,6 +6,16 @@
 
 ---
 
+## Inspiration
+
+Built on the shoulders of giants:
+
+- **[Pong (Atari, 1972)](https://en.wikipedia.org/wiki/Pong)** — the ancestor of every paddle game ever made. We borrow the core mechanic: two paddles, one ball, simple rules. Everything else is ours.
+- **80s arcade sci-fi** — neon grids, glowing trails, dark CRT atmospheres. The visual language of Tron, Outrun, and the alternative-1985-future aesthetic.
+- **Modern AI tooling** — PRD drafted with **JET-TP**, pixel art generated with **[Retro Diffusion](https://www.retrodiffusion.ai/)**, code written with **[Claude Code](https://claude.com/claude-code)**.
+
+---
+
 ## What is this?
 
 Retro Pong Circuit is a small, standalone 80s retro-sci-fi arcade game built around a classic paddle-ball mechanic. It is set in 2088, in a fictional "Neon Sector," where six retro-sci-fi champions compete in the last true arcade tournament in the galaxy.
@@ -67,7 +77,7 @@ Claude Code (vibe-coding) · Retro Diffusion (AI pixel-art) · 🍕
 
 ## Acknowledgments
 
-The PRD was drafted with JET-TP. Game-design inspiration draws from the original [Pong (Atari, 1972)](https://en.wikipedia.org/wiki/Pong) — the ancestor of every paddle game ever made — as well as classic paddle-game variants and 80s retro-sci-fi visual tropes. We do not copy any specific franchise. See [06-meta.md](docs/06-meta.md) for legal and brand guardrails.
+See the [Inspiration](#inspiration) block at the top for the lineage. We do not copy any specific franchise. Legal and brand guardrails are spelled out in [06-meta.md](docs/06-meta.md).
 
 ## License
 
