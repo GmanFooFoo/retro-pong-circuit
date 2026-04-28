@@ -1,0 +1,56 @@
+# Asset History
+
+> **Audit-Trail für jedes generierte Asset** — Prompt, Parameter, Datum, Kosten, Auswahl. Damit jedes Asset später reproduzierbar ist (annähernd; ohne fixen Seed kein bit-exakter Re-Run).
+
+Eintragsformat:
+
+- **Datum + Run-ID**
+- **Asset-Name** (final / archive)
+- **Prompt-Quelle** (Pfad + Commit-Hash)
+- **Parameter** (Modell, Style, Auflösung, Anzahl Varianten)
+- **API-Cost** (Credits)
+- **Auswahl** (welches Variant wurde Hero, was archiviert)
+- **Notes** (was lief gut / schlecht, ggf. Tweak-Idee für nächstes Mal)
+
+---
+
+## 2026-04-28 · Run 1 — Startscreen Key Visual
+
+| Feld | Wert |
+|---|---|
+| Asset (final) | `assets/startscreen.png` (256×256) + `assets/startscreen-upscaled.png` (1024×1024 nearest-neighbor) |
+| Asset (archive) | `assets/archive/startscreen-01.png` + `assets/archive/startscreen-01-upscaled.png` |
+| Prompt-Quelle | [`prompts/startscreen-no-text.txt`](../prompts/startscreen-no-text.txt) — text-freie Variante des PRD §23.10 Templates, committet in `869717b` |
+| API-Modell | `rd_pro` |
+| Style | `rd_pro__scifi` |
+| Auflösung | 256×256 |
+| Varianten | 2 |
+| API-Cost | 0.36 Credits (Balance vorher 5.5 → nachher 5.14) |
+| Cost-Check vorher | ✅ ja, kostenlose Pre-Verification |
+| Auswahl | **Bild 02 → final** (klare Pong-Lesbarkeit: zwei stilisierte Sci-Fi-Paddles, glühender Ball mit Trail in 3D-Box-Arena, Cyan-Magenta-Gradient, dunkles Zentrum für Title-Overlay). Bild 01 → archive (Synthwave-Album-Cover-Vibe, Paddles als Kristall-Module statt Spiel-Schläger). |
+| Iteration-Runde | 1 von max 3 (per Locked-Decision) |
+| Reproduzieren | `./scripts/generate-asset.sh prompts/startscreen-no-text.txt assets/startscreen.png rd_pro__scifi 256 256 false 2` (ohne Seed-Lock — neue Generation produziert ähnlichen Stil, nicht bit-exakt identisch) |
+
+**Notes:**
+- Prompt-Strategie "Text-frei + Title-Overlay separat" hat funktioniert — keine garbled letters, beide Bilder haben sauberen zentralen Bereich für späteren HTML-Title-Overlay.
+- `rd_pro__scifi` Style passt sehr gut zum PRD-Vibe (dark neon, glowing details, hohe Lesbarkeit).
+- Beide Varianten wären als Hero einsetzbar gewesen — Entscheidung pro Bild 02 wegen Spielerkennbarkeit.
+
+---
+
+## Reproduzierbarkeits-Hinweis
+
+**Was gespeichert ist:**
+- Prompt-Datei (versioniert in Git)
+- Alle Parameter (in dieser History)
+- Die generierten PNGs (final + archive, byte-exakt im Repo)
+- Der Wrapper-Script-Stand (`scripts/generate-asset.sh`, versioniert)
+
+**Was NICHT gespeichert ist:**
+- Der Random-Seed, den die Retro-Diffusion-API intern verwendet hat (wird im Response nicht zurückgegeben). Ein Re-Run mit identischem Prompt + Parametern produziert deshalb stilistisch ähnliche, aber nicht bit-exakt identische Bilder.
+
+**Wenn bit-exakte Reproduktion wichtig wird** (z.B. für Asset-Versions-Locks im finalen Build): die committeten PNGs sind die Source-of-Truth. Ein Re-Run dient dann nur der Variation, nicht der Reproduktion.
+
+---
+
+← [Zurück zum README](../README.md)

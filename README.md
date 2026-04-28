@@ -4,6 +4,12 @@
 
 > **Status:** Concept / Pre-Alpha — Vibe-Coding-Experiment, co-developed with a friend.
 
+<p align="center">
+  <img src="assets/startscreen-upscaled.png" alt="Retro Pong Circuit – Last Arcade of the Galaxy: pixel-art startscreen showing two stylized sci-fi paddles in a neon-grid arena with a glowing ball in motion" width="640">
+</p>
+
+> Startscreen key visual generated with [Retro Diffusion](https://www.retrodiffusion.ai/) (`rd_pro__scifi`, 256×256, nearest-neighbor upscaled to 1024×1024). Title and subtitle will be composed as a typography overlay; the AI image is intentionally text-free.
+
 ---
 
 ## Inspiration
@@ -48,6 +54,7 @@ The full Product Requirements Document is split into eight thematic documents:
 | 6 | [06-meta.md](docs/06-meta.md) | Game language and legal / brand guardrails |
 | 7 | [07-roadmap.md](docs/07-roadmap.md) | V2 backlog and V3 ideas (post-MVP) |
 | 8 | [08-open-questions.md](docs/08-open-questions.md) | Open points to clarify as we build |
+| + | [asset-history.md](docs/asset-history.md) | Audit trail for every generated asset — prompt, parameters, cost, selection |
 
 > The original, unsplit PRD is preserved as a historical snapshot in [`docs/_archive/`](docs/_archive/) and is **not** maintained further. All active documentation lives in the eight files above.
 
