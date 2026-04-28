@@ -67,7 +67,7 @@ Claude Code (vibe-coding) · Retro Diffusion (AI pixel-art) · 🍕
 
 ## Acknowledgments
 
-The PRD was drafted with JET-TP. Game-design inspiration draws from classic paddle-game variants and 80s retro-sci-fi visual tropes — without copying any specific franchise. See [06-meta.md](docs/06-meta.md) for legal and brand guardrails.
+The PRD was drafted with JET-TP. Game-design inspiration draws from the original [Pong (Atari, 1972)](https://en.wikipedia.org/wiki/Pong) — the ancestor of every paddle game ever made — as well as classic paddle-game variants and 80s retro-sci-fi visual tropes. We do not copy any specific franchise. See [06-meta.md](docs/06-meta.md) for legal and brand guardrails.
 
 ## License
 

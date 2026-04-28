@@ -1,0 +1,15 @@
+Create a pixel-art key visual for the title screen of an 80s retro sci-fi arcade paddle game.
+
+Title:
+Retro Pong Circuit
+Subtitle:
+Last Arcade of the Galaxy
+
+Scene:
+dark neon arcade environment, glowing ball with trail, two stylized paddles, animated-feeling neon grid, sci-fi tournament mood, not overloaded
+
+Style:
+modern pixel-art retro style, 80s arcade sci-fi, dark background, strong neon accents, clean composition, high contrast, arcade cabinet title screen feel
+
+Requirements:
+title-safe composition, readable central area, no third-party logos, no copyrighted references, no photorealism, no 3D render
